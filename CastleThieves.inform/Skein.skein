@@ -15,5 +15,15 @@ court yard
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5652"></child>
+        </children>
+    </item>
+    <item nodeId="node-5652">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+castle
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
 </Skein>
