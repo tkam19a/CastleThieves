@@ -1,0 +1,38 @@
+! Blurb file created by Inform build 6M62
+
+status "/Users/tkam19/Desktop/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/tkam19/Documents/CastleThieves/CastleThieves.inform/Build/StatusCblorb.html"
+
+
+! Identification
+
+project folder "/Users/tkam19/Documents/CastleThieves/CastleThieves.inform"
+release to "/Users/tkam19/Documents/CastleThieves/CastleThieves.materials/Release"
+
+! Blorb instructions
+
+storyfile leafname "CastleThieves.gblorb"
+storyfile "/Users/tkam19/Documents/CastleThieves/CastleThieves.inform/Build/output.ulx" include
+ifiction "/Users/tkam19/Documents/CastleThieves/CastleThieves.inform/Metadata.iFiction" include
+cover "/Users/tkam19/Desktop/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
+picture 1 "/Users/tkam19/Desktop/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "3B8A00C8-2A74-4B69-8638-9E4AAC5578CE"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2017"
+placeholder [TITLE] = "CastleThieves"
+placeholder [AUTHOR] = "Trevor Kam"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc405.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc406.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
