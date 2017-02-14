@@ -2,7 +2,7 @@
 
 court yard is a room. 
 
-castle is a room. castle is north of court yard.
+castle is a room. castle is north of court yard. description of the castle is "A big grey, old castle. The kind you think you would see if you lived in medieval times."
 
 west tower is a room. west tower is west of courtyard.
 
@@ -16,7 +16,7 @@ north court yard is a room. north court yard is north of castle.
 
 stairway is a door. stairway is below castle and above dungeon. stairway is locked and lockable. stairway is undescribed. 
 
-Dungeon is a room.
+Dungeon is a room. description of dungeon is "A cold mossy room, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back."
 
 east hallway is a room. east hallway is east of dungeon.
 
