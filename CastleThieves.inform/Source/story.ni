@@ -1,16 +1,17 @@
 "CastleThieves" by Trevor Kam
 
-castle's border is a room. 
+heavy key unlocks portcullis.
+
+[ground level]
+castle's border is a room. description of castle's border is "you see a portcullis, a heavy gate that can only be opened from the inside, blocking you from your goal. Are you going to let that stop you? heck no! this is child's play, but really how do you get inside?"
 
 west border is west of castle's border. west border is a room. 
 
-window is a door. window is north of west border and south of west tower. 
-
 east border is east of castle's border. east border is a room.
 
-portcullis is a door. portcullis is north of castle's border and south of court yard. description of portcullis is "a heavy gate that can only be opened from the inside..."
+portcullis is a door. portcullis is north of castle's border and south of court yard. description of portcullis is "a heavy gate that can only be opened from the inside, but you see a huge keyhole maybe that'll do the trick.". it is locked and lockable.
 
-court yard is a room. description of the court yard is "You are infont of a small grey, old castle. I'm not even sure if you could consider it a castle. It's in the middle of the forrest, which made it very difficult to find in the first place.."
+court yard is a room. description of the court yard is "You are infont of a small grey, old castle. I'm not even sure if you could consider it a castle. It's in the middle of the forrest, which made it very difficult to find in the first place..".
 
 castle is a room. castle is north of court yard. 
 
@@ -28,7 +29,9 @@ stairway is a door. stairway is below castle and above dungeon. stairway is unde
 
 
 
-Dungeon is a room. description of dungeon is "A cold mossy room, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back."
+
+[underground]
+Dungeon is a room. description of dungeon is "A cold mossy room, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.".
 
 east hallway is a room. east hallway is east of dungeon.
 
@@ -45,7 +48,6 @@ steel door is east of upper east hallway and west of treasure room. steel door i
 treasure room is a room. 
 
 iron door is west of lower west hallway and east of west exit. iron door is locked and lockable.
-
 iron door is a door.
 
 west exit is a room.

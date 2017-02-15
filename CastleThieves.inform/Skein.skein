@@ -12,11 +12,14 @@ An Interactive Fiction by Trevor Kam
 Release 1 / Serial number 170214 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 castle's border
+you see a portcullis, a heavy gate that can only be opened from the inside, blocking you from your goal. Are you going to let that stop you? heck no! this is child's play, but really how do you get inside?
+
 You can see portcullis here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5652"></child>
+        <children><child nodeId="node-5673"></child>
+            <child nodeId="node-5652"></child>
             <child nodeId="node-5671"></child>
         </children>
     </item>
@@ -114,6 +117,25 @@ A big grey, old castle. The kind you think you would see if you lived in medieva
     <item nodeId="node-5657">
         <command xml:space="preserve">open stairway</command>
         <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5673">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  ladder
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5674"></child>
+        </children>
+    </item>
+    <item nodeId="node-5674">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+west border
+You can see window here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
