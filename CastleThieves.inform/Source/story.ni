@@ -1,20 +1,32 @@
 "CastleThieves" by Trevor Kam
 
-court yard is a room. 
+castle's border is a room. 
 
-castle is a room. castle is north of court yard. description of the castle is "A big grey, old castle. The kind you think you would see if you lived in medieval times."
+west border is west of castle's border. west border is a room. 
+
+window is a door. window is north of west border and south of west tower. 
+
+east border is east of castle's border. east border is a room.
+
+portcullis is a door. portcullis is north of castle's border and south of court yard. description of portcullis is "a heavy gate that can only be opened from the inside..."
+
+court yard is a room. description of the court yard is "You are infont of a small grey, old castle. I'm not even sure if you could consider it a castle. It's in the middle of the forrest, which made it very difficult to find in the first place.."
+
+castle is a room. castle is north of court yard. 
 
 west tower is a room. west tower is west of courtyard.
 
 east tower is a room. east tower is east of courtyard.
 
-west court yard is a room. west court yard is west of castle.
+west corridor is a room. west court yard is west of castle.
 
-east court yard is a room. east court yard is east of castle.
+east corridor is a room. east court yard is east of castle.
 
 north court yard is a room. north court yard is north of castle.
 
-stairway is a door. stairway is below castle and above dungeon. stairway is locked and lockable. stairway is undescribed. 
+stairway is a door. stairway is below castle and above dungeon. stairway is undescribed.
+
+
 
 Dungeon is a room. description of dungeon is "A cold mossy room, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back."
 
