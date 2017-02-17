@@ -7,9 +7,11 @@
         <result xml:space="preserve">
 
 
+You are an international thief. You heard from a friend that there was a castle in the middle of a forrest, and the owner just went out to a dinner party. It is 9:00pm and you have about 2 hours to get in steal anything precious and get out.
+
 CastleThieves
 An Interactive Fiction by Trevor Kam
-Release 1 / Serial number 170214 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 170216 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 castle's border
 you see a portcullis, a heavy gate that can only be opened from the inside, blocking you from your goal. Are you going to let that stop you? heck no! this is child's play, but really how do you get inside?
@@ -20,32 +22,95 @@ You can see portcullis here.
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-5673"></child>
             <child nodeId="node-5652"></child>
+            <child nodeId="node-6427"></child>
             <child nodeId="node-5671"></child>
+            <child nodeId="node-6429"></child>
         </children>
+    </item>
+    <item nodeId="node-6429">
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can't see a thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-5671">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 west border
+you are west of the castle. a rock makes up entire tower. you see an open window on the upper west tower, maybe you could use your parkour skills and somehow climb up there and get inside.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-5672"></child>
+            <child nodeId="node-6420"></child>
         </children>
+    </item>
+    <item nodeId="node-6420">
+        <command xml:space="preserve">x rock wall</command>
+        <result xml:space="preserve"> 
+
+You see a loose rock in the wall, move it a couple more rocks fall as well and you can see a path to the castle. you're in!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6421"></child>
+        </children>
+    </item>
+    <item nodeId="node-6421">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">(first opening rock wall)
+You crawl through the little space and make your way into the west tower.
+
+west tower
+You can see rock wall here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-5672">
         <command xml:space="preserve">n</command>
-        <result xml:space="preserve">
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6417"></child>
+        </children>
+    </item>
+    <item nodeId="node-6417">
+        <command xml:space="preserve">x rock wall</command>
+        <result xml:space="preserve">You see nothing special about rock wall.
+
+You see a loose rock in the wall, move it a couple more rocks fall as well and you can see a path to the castle. you're in!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6418"></child>
+        </children>
+    </item>
+    <item nodeId="node-6418">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">(first opening rock wall)
+
 west tower
+You can see rock wall here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-6427">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">There are none at all available!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-5652">
         <command xml:space="preserve">n</command>
-        <result xml:space="preserve">
-castle
-A big grey, old castle. The kind you think you would see if you lived in medieval times.
+        <result xml:space="preserve">(first opening portcullis)
+It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
