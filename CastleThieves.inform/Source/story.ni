@@ -2,6 +2,7 @@
 
 [ground level]
 castle's border is a room. description of castle's border is "you see a portcullis, a heavy gate that can only be opened from the inside, blocking you from your goal. Are you going to let that stop you? heck no! this is child's play, but really how do you get inside?"
+	
 
 When play begins, say "You are an international thief. You heard from a friend that there was a castle in the middle of a forrest, and the owner just went out to a dinner party. It is 9:00pm and you have about 2 hours to get in steal anything precious and get out."
 
@@ -10,7 +11,6 @@ When play begins: now the time of day is 9:00 PM.
 rule for deciding whether all includes something: 
 it does not.
 
-west border is dark.
 
 rock wall is north of west border and south of west tower. the rock wall is a door. it is undescribed. description of rock wall is " ".
 After examining the rock wall for the first time:
@@ -51,29 +51,29 @@ stairway is a door. stairway is below castle and above dungeon. stairway is unde
 
 
 [underground]
-Dungeon is a room. description of dungeon is "A cold mossy room, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.".
+Dungeon is a room. description of dungeon is "A cold mossy room, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.". torch is a thing inside dungeon. it is undescribed. it is lit.
 
-east hallway is a room. east hallway is east of dungeon.
+east hallway is a room. east hallway is east of dungeon. it is dark
 
-west hallway is a room. west hallway is west of dungeon.
+west hallway is a room. west hallway is west of dungeon. it is dark
 
-north hallway is a room. north hallway is north of dungeon.
+north hallway is a room. north hallway is north of dungeon. it is dark
 
-lower west hallway is a room. lower west hallway is south of west hallway.
+lower west hallway is a room. lower west hallway is south of west hallway. it is dark
 
-upper east hallway is a room. upper east hallway is north of east hallway.
+upper east hallway is a room. upper east hallway is north of east hallway. it is dark
 
 steel door is east of upper east hallway and west of treasure room. steel door is locked and lockable. steel door is a door.
 
-treasure room is a room. 
+treasure room is a room. it is dark
 
 iron door is west of lower west hallway and east of west exit. iron door is locked and lockable.
 iron door is a door.
 
-west exit is a room.
+west exit is a room. it is dark
 
 lead door is north of west exit and south of exit. lead door is a door.
 
-exit is a room. 
+exit is a room. it is dark
 
 lead door is locked and lockable.
