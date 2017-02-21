@@ -73,7 +73,7 @@ upper east hallway is a room. upper east hallway is north of east hallway. it is
 
 steel door is east of upper east hallway and west of treasure room. steel door is locked and lockable. steel door is a door.
 
-treasure room is a room. it is dark
+treasure room is a room. it is dark. description of it is "a small cramped room almost filled to the brim with treasure, whether it be gold, silver, precious jewels, and ornaments.". King's Treasure is a thing inside treasure room. description of it is "almost all of the king's treasure fit into a plump sack. It makes you feel like a reverse santa."
 
 iron door is west of lower west hallway and east of west exit. iron door is locked and lockable.
 iron door is a door.
