@@ -46,6 +46,7 @@ you are west of the castle. a rock wall makes up entire west tower. you see an o
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1039"></child>
+            <child nodeId="node-1091"></child>
             <child nodeId="node-1037"></child>
             <child nodeId="node-1030"></child>
             <child nodeId="node-1005"></child>
@@ -67,12 +68,13 @@ You see a loose rock in the wall, you move it and a couple more rocks fall as we
         <result xml:space="preserve">(first opening rock wall)
 You crawl through the little space and make your way into the west tower.
 
-dungeon
-A cold mossy room, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.
+west tower
+You can see rock wall here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1019"></child>
+            <child nodeId="node-1076"></child>
             <child nodeId="node-1007"></child>
         </children>
     </item>
@@ -191,6 +193,73 @@ a long narrow, stone hallway. rubble litters the ground, someone else must have 
     <item nodeId="node-1018">
         <command xml:space="preserve">take rusty key</command>
         <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1076">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1077"></child>
+        </children>
+    </item>
+    <item nodeId="node-1077">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+courtyard
+You are infont of a small grey, old castle. I'm not even sure if you could consider it a castle. It's in the middle of the forrest, which made it very difficult to find in the first place..
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1078"></child>
+        </children>
+    </item>
+    <item nodeId="node-1078">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+castle
+a large room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1079"></child>
+        </children>
+    </item>
+    <item nodeId="node-1079">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+west corridor
+toddler is playing around in the field, he seems to be completely focused in what he is doing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1087"></child>
+        </children>
+    </item>
+    <item nodeId="node-1087">
+        <command xml:space="preserve">talk to toddler</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1088"></child>
+        </children>
+    </item>
+    <item nodeId="node-1088">
+        <command xml:space="preserve">ask toddler about treasure</command>
+        <result xml:space="preserve">Im hungy... you must be my baby sitter for tonight. my mommy said my dinner is across the hall. if you get me some food maybe ill talk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1089"></child>
+        </children>
+    </item>
+    <item nodeId="node-1089">
+        <command xml:space="preserve">x toddler</command>
+        <result xml:space="preserve">a young boy who seems oblivious of you coming into the castle. maybe you can try asking him things about the treasure.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -453,6 +522,279 @@ You can see rock wall here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1091">
+        <command xml:space="preserve">x rock</command>
+        <result xml:space="preserve"> 
+
+You see a loose rock in the wall, you move it and a couple more rocks fall as well. the dust clears up and you can see a path to the castle. you're in!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1092"></child>
+        </children>
+    </item>
+    <item nodeId="node-1092">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening rock wall)
+You crawl through the little space and make your way into the west tower.
+
+west tower
+You can see rock wall here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1093"></child>
+        </children>
+    </item>
+    <item nodeId="node-1093">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+upper west tower
+You can see grilled cheese here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1094"></child>
+        </children>
+    </item>
+    <item nodeId="node-1094">
+        <command xml:space="preserve">take</command>
+        <result xml:space="preserve">(grilled cheese)
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1095"></child>
+        </children>
+    </item>
+    <item nodeId="node-1095">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+west tower
+You can see rock wall here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1096"></child>
+        </children>
+    </item>
+    <item nodeId="node-1096">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+courtyard
+You are infont of a small grey, old castle. I'm not even sure if you could consider it a castle. It's in the middle of the forrest, which made it very difficult to find in the first place..
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1097"></child>
+            <child nodeId="node-1112"></child>
+        </children>
+    </item>
+    <item nodeId="node-1112">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+west tower
+You can see rock wall here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1113"></child>
+        </children>
+    </item>
+    <item nodeId="node-1113">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+courtyard
+You are infont of a small grey, old castle. I'm not even sure if you could consider it a castle. It's in the middle of the forrest, which made it very difficult to find in the first place..
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1114"></child>
+        </children>
+    </item>
+    <item nodeId="node-1114">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+castle
+a large room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1115"></child>
+        </children>
+    </item>
+    <item nodeId="node-1115">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+west corridor
+toddler is playing around in the field, he seems to be completely focused in what he is doing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1116"></child>
+        </children>
+    </item>
+    <item nodeId="node-1116">
+        <command xml:space="preserve">ask toddler about treasure</command>
+        <result xml:space="preserve">Im hungy... you must be my baby sitter for tonight. my mommy said my dinner is across the hall. if you get me some food maybe ill talk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1117"></child>
+        </children>
+    </item>
+    <item nodeId="node-1117">
+        <command xml:space="preserve">give toddler grilled cheese</command>
+        <result xml:space="preserve">all right i'll help you. you asked about the treasure? first you have to go  in the castle and open the latch in the ground, but that is all I can tell you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1118"></child>
+        </children>
+    </item>
+    <item nodeId="node-1118">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+castle
+a large room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1097">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+castle
+a large room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1098"></child>
+        </children>
+    </item>
+    <item nodeId="node-1098">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+west corridor
+toddler is playing around in the field, he seems to be completely focused in what he is doing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1690"></child>
+            <child nodeId="node-1099"></child>
+        </children>
+    </item>
+    <item nodeId="node-1099">
+        <command xml:space="preserve">talk to toddler about treasure</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1100"></child>
+        </children>
+    </item>
+    <item nodeId="node-1100">
+        <command xml:space="preserve">ask toddler about treasure</command>
+        <result xml:space="preserve">Im hungy... you must be my baby sitter for tonight. my mommy said my dinner is across the hall. if you get me some food maybe ill talk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1101"></child>
+        </children>
+    </item>
+    <item nodeId="node-1101">
+        <command xml:space="preserve">give toddler grilled cheese</command>
+        <result xml:space="preserve">all right i'll help you. you asked about the treasure? first you have to go down the stairway in the castle, but that is all I can tell you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1102"></child>
+        </children>
+    </item>
+    <item nodeId="node-1102">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+castle
+a large room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1103"></child>
+        </children>
+    </item>
+    <item nodeId="node-1103">
+        <command xml:space="preserve">down</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1104"></child>
+        </children>
+    </item>
+    <item nodeId="node-1104">
+        <command xml:space="preserve">open stairway</command>
+        <result xml:space="preserve">You open stairway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1690">
+        <command xml:space="preserve">ask toddler about treasure</command>
+        <result xml:space="preserve">Im hungy... you must be my baby sitter for tonight. my mommy said my dinner is across the hall. if you get me some food maybe ill talk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1691"></child>
+        </children>
+    </item>
+    <item nodeId="node-1691">
+        <command xml:space="preserve">give toddler grilled cheese</command>
+        <result xml:space="preserve">all right i'll help you. you asked about the treasure? first you have to go in the castle and open the latch in the ground, but that is all I can tell you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1692"></child>
+        </children>
+    </item>
+    <item nodeId="node-1692">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+castle
+a large room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1693"></child>
+        </children>
+    </item>
+    <item nodeId="node-1693">
+        <command xml:space="preserve">x castle</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1753"></child>
+        </children>
+    </item>
+    <item nodeId="node-1753">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+east corridor
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1754"></child>
+        </children>
+    </item>
+    <item nodeId="node-1754">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+castle
+ a large room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1039">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
@@ -572,7 +914,7 @@ It seems to be locked.
     <item nodeId="node-1052">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
-  ladder
+  to-do list
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

@@ -2,7 +2,11 @@
 
 [ground level]
 castle's border is a room. description of castle's border is "you see a portcullis, a heavy gate that can only be opened from the inside, blocking you from your goal. Are you going to let that stop you? heck no! this is child's play, but really how do you get inside?"
+
+when play begins:
+	move to-do list to player	
 	
+to-do list is a thing. description of it is "checklist: before 11:00pm I need to get into the castle, find out where the treasure is, take it, and get out.".
 
 When play begins, say "You are an international thief. You heard from a friend that there was a castle in the middle of a forrest, and the owner just went out to a dinner party. It is 9:00pm and you have about 2 hours to get in steal anything precious and get out."
 
@@ -29,7 +33,8 @@ portcullis is a door. portcullis is north of castle's border and south of court 
 
 courtyard is a room. description of the courtyard is "You are infont of a small grey, old castle. I'm not even sure if you could consider it a castle. It's in the middle of the forrest, which made it very difficult to find in the first place..".
 
-castle is a room. castle is north of courtyard. description of castle is "a large room."
+castle is a room. castle is north of courtyard. description of the castle is "[if toddler is carrying the grilled cheese]a large room with a latch in the corner... I can't believe I never saw that before. [else]a large room."
+	
 
 west tower is a room. west tower is west of courtyard. 
 
@@ -39,15 +44,29 @@ east tower is a room. east tower is east of courtyard.
 
 upper east tower is a room. it is above east tower.
 
-west corridor is a room. west court yard is west of castle.
+west corridor is a room. west corridor is west of castle.
 
-east corridor is a room. east court yard is east of castle.
+east corridor is a room. east corridor is east of castle.
 
-north court yard is a room. north court yard is north of castle.
+north corridor is a room. north corridor is north of castle.
 
-stairway is a door. stairway is below castle and above dungeon. stairway is undescribed.
+latch is a door. latch is below castle and above dungeon. latch is undescribed.
 
 bookshelf is a thing. it is fixed in place.
+
+toddler is a man in west corridor. "toddler is playing around in the field, he seems to be completely focused in what he is doing.". the description is "a young boy who seems oblivious of you coming into the castle. maybe you can try asking him things about the treasure.". Understand "kid","boy","brat" as "[toddler]".
+
+Instead of asking toddler about "treasure":
+	say "Im hungy... you must be my baby sitter for tonight. my mommy said my dinner is across the hall. if you get me some food maybe ill talk." instead.
+
+grilled cheese is a thing. it is edible. it is in upper west tower.
+
+Instead of giving grilled cheese to toddler:
+	say "all right i'll help you. you asked about the treasure? first you have to go in the castle and open the latch in the ground, but that is all I can tell you." instead;
+	move grilled cheese to toddler;
+	now the latch is described.
+
+	
 
 [underground]
 Dungeon is a room. description of dungeon is "A cold mossy room, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.". torch is a thing inside dungeon. it is undescribed. it is lit.
@@ -75,13 +94,11 @@ steel door is east of upper east hallway and west of treasure room. steel door i
 
 treasure room is a room. it is dark. description of it is "a small cramped room almost filled to the brim with treasure, whether it be gold, silver, precious jewels, and ornaments.". King's Treasure is a thing inside treasure room. description of it is "almost all of the king's treasure fit into a plump sack. It makes you feel like a reverse santa."
 
-iron door is west of lower west hallway and east of west exit. iron door is locked and lockable.
+iron door is west of lower west hallway and east of exit. iron door is locked and lockable.
 iron door is a door.
-
-west exit is a room. it is dark
-
-lead door is north of west exit and south of exit. lead door is a door.
 
 exit is a room. it is dark
 
-lead door is locked and lockable.
+After entering exit:
+	say "you escaped with the treasure and not even a drip of sweat, congratulation!";
+	end the story finally.
