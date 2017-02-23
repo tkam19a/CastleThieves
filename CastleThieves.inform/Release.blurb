@@ -22,7 +22,7 @@ placeholder [IFID] = "3B8A00C8-2A74-4B69-8638-9E4AAC5578CE"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2017"
 placeholder [TITLE] = "CastleThieves"
-placeholder [AUTHOR] = "Trevor Kam"
+placeholder [AUTHOR] = "Noa Kam"
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release

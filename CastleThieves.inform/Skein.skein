@@ -10,8 +10,8 @@
 You are an international thief. You heard from a friend that there was a castle in the middle of a forrest, and the owner just went out to a dinner party. It is 9:00pm and you have about 2 hours to get in steal anything precious and get out.
 
 CastleThieves
-An Interactive Fiction by Trevor Kam
-Release 1 / Serial number 170221 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+An Interactive Fiction by Noa Kam
+Release 1 / Serial number 170222 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 castle's border
 you see a portcullis, a heavy gate that can only be opened from the inside, blocking you from your goal. Are you going to let that stop you? heck no! this is child's play, but really how do you get inside?
@@ -24,9 +24,1437 @@ You can see portcullis here.
             <child nodeId="node-1052"></child>
             <child nodeId="node-1043"></child>
             <child nodeId="node-1042"></child>
+            <child nodeId="node-2006"></child>
             <child nodeId="node-1004"></child>
             <child nodeId="node-1003"></child>
+            <child nodeId="node-2073"></child>
         </children>
+    </item>
+    <item nodeId="node-2073">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2074"></child>
+        </children>
+    </item>
+    <item nodeId="node-2074">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2075"></child>
+        </children>
+    </item>
+    <item nodeId="node-2075">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2076"></child>
+        </children>
+    </item>
+    <item nodeId="node-2076">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2077"></child>
+        </children>
+    </item>
+    <item nodeId="node-2077">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2078"></child>
+        </children>
+    </item>
+    <item nodeId="node-2078">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2079"></child>
+        </children>
+    </item>
+    <item nodeId="node-2079">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2080"></child>
+        </children>
+    </item>
+    <item nodeId="node-2080">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2081"></child>
+        </children>
+    </item>
+    <item nodeId="node-2081">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2082"></child>
+        </children>
+    </item>
+    <item nodeId="node-2082">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2083"></child>
+        </children>
+    </item>
+    <item nodeId="node-2083">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2084"></child>
+        </children>
+    </item>
+    <item nodeId="node-2084">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2085"></child>
+        </children>
+    </item>
+    <item nodeId="node-2085">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2086"></child>
+        </children>
+    </item>
+    <item nodeId="node-2086">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2087"></child>
+        </children>
+    </item>
+    <item nodeId="node-2087">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2088"></child>
+        </children>
+    </item>
+    <item nodeId="node-2088">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2089"></child>
+        </children>
+    </item>
+    <item nodeId="node-2089">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2090"></child>
+        </children>
+    </item>
+    <item nodeId="node-2090">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2091"></child>
+        </children>
+    </item>
+    <item nodeId="node-2091">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2092"></child>
+        </children>
+    </item>
+    <item nodeId="node-2092">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2093"></child>
+        </children>
+    </item>
+    <item nodeId="node-2093">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2094"></child>
+        </children>
+    </item>
+    <item nodeId="node-2094">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2095"></child>
+        </children>
+    </item>
+    <item nodeId="node-2095">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2096"></child>
+        </children>
+    </item>
+    <item nodeId="node-2096">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2097"></child>
+        </children>
+    </item>
+    <item nodeId="node-2097">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2098"></child>
+        </children>
+    </item>
+    <item nodeId="node-2098">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2099"></child>
+        </children>
+    </item>
+    <item nodeId="node-2099">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2100"></child>
+        </children>
+    </item>
+    <item nodeId="node-2100">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2101"></child>
+        </children>
+    </item>
+    <item nodeId="node-2101">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2102"></child>
+        </children>
+    </item>
+    <item nodeId="node-2102">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2103"></child>
+        </children>
+    </item>
+    <item nodeId="node-2103">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2104"></child>
+        </children>
+    </item>
+    <item nodeId="node-2104">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2105"></child>
+        </children>
+    </item>
+    <item nodeId="node-2105">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2106"></child>
+        </children>
+    </item>
+    <item nodeId="node-2106">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2107"></child>
+        </children>
+    </item>
+    <item nodeId="node-2107">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2108"></child>
+        </children>
+    </item>
+    <item nodeId="node-2108">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2109"></child>
+        </children>
+    </item>
+    <item nodeId="node-2109">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2110"></child>
+        </children>
+    </item>
+    <item nodeId="node-2110">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2111"></child>
+        </children>
+    </item>
+    <item nodeId="node-2111">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2112"></child>
+        </children>
+    </item>
+    <item nodeId="node-2112">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2113"></child>
+        </children>
+    </item>
+    <item nodeId="node-2113">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2114"></child>
+        </children>
+    </item>
+    <item nodeId="node-2114">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2115"></child>
+        </children>
+    </item>
+    <item nodeId="node-2115">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2116"></child>
+        </children>
+    </item>
+    <item nodeId="node-2116">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2117"></child>
+        </children>
+    </item>
+    <item nodeId="node-2117">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2118"></child>
+        </children>
+    </item>
+    <item nodeId="node-2118">
+        <command xml:space="preserve">zz</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2119"></child>
+        </children>
+    </item>
+    <item nodeId="node-2119">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2120"></child>
+        </children>
+    </item>
+    <item nodeId="node-2120">
+        <command xml:space="preserve">zz</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2121"></child>
+        </children>
+    </item>
+    <item nodeId="node-2121">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2122"></child>
+        </children>
+    </item>
+    <item nodeId="node-2122">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2123"></child>
+        </children>
+    </item>
+    <item nodeId="node-2123">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2124"></child>
+        </children>
+    </item>
+    <item nodeId="node-2124">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2125"></child>
+        </children>
+    </item>
+    <item nodeId="node-2125">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2126"></child>
+        </children>
+    </item>
+    <item nodeId="node-2126">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2127"></child>
+        </children>
+    </item>
+    <item nodeId="node-2127">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2128"></child>
+        </children>
+    </item>
+    <item nodeId="node-2128">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2129"></child>
+        </children>
+    </item>
+    <item nodeId="node-2129">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2130"></child>
+        </children>
+    </item>
+    <item nodeId="node-2130">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2131"></child>
+        </children>
+    </item>
+    <item nodeId="node-2131">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2132"></child>
+        </children>
+    </item>
+    <item nodeId="node-2132">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2133"></child>
+        </children>
+    </item>
+    <item nodeId="node-2133">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2134"></child>
+        </children>
+    </item>
+    <item nodeId="node-2134">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2135"></child>
+        </children>
+    </item>
+    <item nodeId="node-2135">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2136"></child>
+        </children>
+    </item>
+    <item nodeId="node-2136">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2137"></child>
+        </children>
+    </item>
+    <item nodeId="node-2137">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+you hear a clock strike 10 times, looks like it's 10 o'clock the owner of the castle is going to be home in just about another hour. better hurry up!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2138"></child>
+        </children>
+    </item>
+    <item nodeId="node-2138">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2139"></child>
+        </children>
+    </item>
+    <item nodeId="node-2139">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2140"></child>
+        </children>
+    </item>
+    <item nodeId="node-2140">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2141"></child>
+        </children>
+    </item>
+    <item nodeId="node-2141">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2142"></child>
+        </children>
+    </item>
+    <item nodeId="node-2142">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2143"></child>
+        </children>
+    </item>
+    <item nodeId="node-2143">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2144"></child>
+        </children>
+    </item>
+    <item nodeId="node-2144">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2145"></child>
+        </children>
+    </item>
+    <item nodeId="node-2145">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2146"></child>
+        </children>
+    </item>
+    <item nodeId="node-2146">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2147"></child>
+        </children>
+    </item>
+    <item nodeId="node-2147">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2148"></child>
+        </children>
+    </item>
+    <item nodeId="node-2148">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2149"></child>
+        </children>
+    </item>
+    <item nodeId="node-2149">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2150"></child>
+        </children>
+    </item>
+    <item nodeId="node-2150">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2151"></child>
+        </children>
+    </item>
+    <item nodeId="node-2151">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2152"></child>
+        </children>
+    </item>
+    <item nodeId="node-2152">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2153"></child>
+        </children>
+    </item>
+    <item nodeId="node-2153">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2154"></child>
+        </children>
+    </item>
+    <item nodeId="node-2154">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2155"></child>
+        </children>
+    </item>
+    <item nodeId="node-2155">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2156"></child>
+        </children>
+    </item>
+    <item nodeId="node-2156">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2157"></child>
+        </children>
+    </item>
+    <item nodeId="node-2157">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2158"></child>
+        </children>
+    </item>
+    <item nodeId="node-2158">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2159"></child>
+        </children>
+    </item>
+    <item nodeId="node-2159">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2160"></child>
+        </children>
+    </item>
+    <item nodeId="node-2160">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2161"></child>
+        </children>
+    </item>
+    <item nodeId="node-2161">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2162"></child>
+        </children>
+    </item>
+    <item nodeId="node-2162">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2163"></child>
+        </children>
+    </item>
+    <item nodeId="node-2163">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2164"></child>
+        </children>
+    </item>
+    <item nodeId="node-2164">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2165"></child>
+        </children>
+    </item>
+    <item nodeId="node-2165">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2166"></child>
+        </children>
+    </item>
+    <item nodeId="node-2166">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2167"></child>
+        </children>
+    </item>
+    <item nodeId="node-2167">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2168"></child>
+        </children>
+    </item>
+    <item nodeId="node-2168">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2169"></child>
+        </children>
+    </item>
+    <item nodeId="node-2169">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2170"></child>
+        </children>
+    </item>
+    <item nodeId="node-2170">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2171"></child>
+        </children>
+    </item>
+    <item nodeId="node-2171">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2172"></child>
+        </children>
+    </item>
+    <item nodeId="node-2172">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2173"></child>
+        </children>
+    </item>
+    <item nodeId="node-2173">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2174"></child>
+        </children>
+    </item>
+    <item nodeId="node-2174">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2175"></child>
+        </children>
+    </item>
+    <item nodeId="node-2175">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2176"></child>
+        </children>
+    </item>
+    <item nodeId="node-2176">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2177"></child>
+        </children>
+    </item>
+    <item nodeId="node-2177">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2178"></child>
+        </children>
+    </item>
+    <item nodeId="node-2178">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2179"></child>
+        </children>
+    </item>
+    <item nodeId="node-2179">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2180"></child>
+        </children>
+    </item>
+    <item nodeId="node-2180">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2181"></child>
+        </children>
+    </item>
+    <item nodeId="node-2181">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2182"></child>
+        </children>
+    </item>
+    <item nodeId="node-2182">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2183"></child>
+        </children>
+    </item>
+    <item nodeId="node-2183">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2184"></child>
+        </children>
+    </item>
+    <item nodeId="node-2184">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2185"></child>
+        </children>
+    </item>
+    <item nodeId="node-2185">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2186"></child>
+        </children>
+    </item>
+    <item nodeId="node-2186">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2187"></child>
+        </children>
+    </item>
+    <item nodeId="node-2187">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2188"></child>
+        </children>
+    </item>
+    <item nodeId="node-2188">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2189"></child>
+        </children>
+    </item>
+    <item nodeId="node-2189">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2190"></child>
+        </children>
+    </item>
+    <item nodeId="node-2190">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2191"></child>
+        </children>
+    </item>
+    <item nodeId="node-2191">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2192"></child>
+        </children>
+    </item>
+    <item nodeId="node-2192">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2193"></child>
+        </children>
+    </item>
+    <item nodeId="node-2193">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2194"></child>
+        </children>
+    </item>
+    <item nodeId="node-2194">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2195"></child>
+        </children>
+    </item>
+    <item nodeId="node-2195">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2196"></child>
+        </children>
+    </item>
+    <item nodeId="node-2196">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2197"></child>
+        </children>
+    </item>
+    <item nodeId="node-2197">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+you hear a clock strike 11 times, looks like it's 11 o'clock the owner of the castle should be hoom real soon. now we really need to hurry up!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2198"></child>
+        </children>
+    </item>
+    <item nodeId="node-2198">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2199"></child>
+        </children>
+    </item>
+    <item nodeId="node-2199">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2200"></child>
+        </children>
+    </item>
+    <item nodeId="node-2200">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2201"></child>
+        </children>
+    </item>
+    <item nodeId="node-2201">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2202"></child>
+        </children>
+    </item>
+    <item nodeId="node-2202">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2203"></child>
+        </children>
+    </item>
+    <item nodeId="node-2203">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2204"></child>
+        </children>
+    </item>
+    <item nodeId="node-2204">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2205"></child>
+        </children>
+    </item>
+    <item nodeId="node-2205">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2206"></child>
+        </children>
+    </item>
+    <item nodeId="node-2206">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2207"></child>
+        </children>
+    </item>
+    <item nodeId="node-2207">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2208"></child>
+        </children>
+    </item>
+    <item nodeId="node-2208">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2209"></child>
+        </children>
+    </item>
+    <item nodeId="node-2209">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2210"></child>
+        </children>
+    </item>
+    <item nodeId="node-2210">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2211"></child>
+        </children>
+    </item>
+    <item nodeId="node-2211">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2212"></child>
+        </children>
+    </item>
+    <item nodeId="node-2212">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2213"></child>
+        </children>
+    </item>
+    <item nodeId="node-2213">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2214"></child>
+        </children>
+    </item>
+    <item nodeId="node-2214">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2215"></child>
+        </children>
+    </item>
+    <item nodeId="node-2215">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2216"></child>
+        </children>
+    </item>
+    <item nodeId="node-2216">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2217"></child>
+        </children>
+    </item>
+    <item nodeId="node-2217">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2218"></child>
+        </children>
+    </item>
+    <item nodeId="node-2218">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2219"></child>
+        </children>
+    </item>
+    <item nodeId="node-2219">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2220"></child>
+        </children>
+    </item>
+    <item nodeId="node-2220">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2221"></child>
+        </children>
+    </item>
+    <item nodeId="node-2221">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2222"></child>
+        </children>
+    </item>
+    <item nodeId="node-2222">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2223"></child>
+        </children>
+    </item>
+    <item nodeId="node-2223">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2224"></child>
+        </children>
+    </item>
+    <item nodeId="node-2224">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2225"></child>
+        </children>
+    </item>
+    <item nodeId="node-2225">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2226"></child>
+        </children>
+    </item>
+    <item nodeId="node-2226">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2227"></child>
+        </children>
+    </item>
+    <item nodeId="node-2227">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+ "HEY WHAT ARE YOU DOING IN MY CASTLE!!! COME HERE I'LL SHOW YOU FIRST HAND WHAT WE DO TO PEOPLE HOW TRY TO STEAL MY STUFF."..... you die as the king brutally murders you with some nails, and a hammer.
+
+
+
+    *** you lose... ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2228"></child>
+        </children>
+    </item>
+    <item nodeId="node-2228">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2229"></child>
+        </children>
+    </item>
+    <item nodeId="node-2229">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1003">
         <command xml:space="preserve">west</command>
@@ -531,7 +1959,113 @@ You see a loose rock in the wall, you move it and a couple more rocks fall as we
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1092"></child>
+            <child nodeId="node-2232"></child>
         </children>
+    </item>
+    <item nodeId="node-2232">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2233"></child>
+        </children>
+    </item>
+    <item nodeId="node-2233">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening rock wall)
+You crawl through the little space and make your way into the west tower.
+
+west tower
+you look around and notice the inside is a lot nice than the rock on the ouside. you see a bunch of bookcases and a spiraling staircase going up.
+
+You can see rock wall and bookshelf (in which are green book, blue book, orange book, fat book, red book, skinny book and black book) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2234"></child>
+        </children>
+    </item>
+    <item nodeId="node-2234">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+upper west tower
+there is nothing much to see up here. just an oak table with a pen and paper, this is probably someone's study. but I guess they ran out of books to put in the shelves up here.
+
+You can see shelves and oak table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2235"></child>
+        </children>
+    </item>
+    <item nodeId="node-2235">
+        <command xml:space="preserve">take grilled cheese</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2236"></child>
+        </children>
+    </item>
+    <item nodeId="node-2236">
+        <command xml:space="preserve">x oak table</command>
+        <result xml:space="preserve">a small cramped oak table with a lamp, pen, and a bunch of papers spread out all over.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2237"></child>
+        </children>
+    </item>
+    <item nodeId="node-2237">
+        <command xml:space="preserve">take paper</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2238"></child>
+        </children>
+    </item>
+    <item nodeId="node-2238">
+        <command xml:space="preserve">x oak table</command>
+        <result xml:space="preserve">a small cramped oak table with a lamp, pen, and a bunch of papers spread out all over.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2266"></child>
+        </children>
+    </item>
+    <item nodeId="node-2266">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  paper
+  grilled cheese
+  to-do list
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2267"></child>
+        </children>
+    </item>
+    <item nodeId="node-2267">
+        <command xml:space="preserve">x oak table</command>
+        <result xml:space="preserve">a small cramped oak table with a lamp, pen, and a bunch of papers spread out all over.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2323"></child>
+        </children>
+    </item>
+    <item nodeId="node-2323">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+west tower
+you look around and notice the inside is a lot nice than the rock on the ouside. you see a bunch of bookcases and a spiraling staircase going up.
+
+You can see rock wall and bookshelf (in which are green book, blue book, orange book, fat book, red book, skinny book and black book) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1092">
         <command xml:space="preserve">n</command>
@@ -760,11 +2294,14 @@ a large room.
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 castle
-a large room.
+a large room with a latch in the corner of it... I can't believe I never saw that before.
+
+You can see latch here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1693"></child>
+        <children><child nodeId="node-1987"></child>
+            <child nodeId="node-1693"></child>
         </children>
     </item>
     <item nodeId="node-1693">
@@ -790,7 +2327,171 @@ east corridor
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 castle
- a large room.
+a large room with a latch in the corner of it... I can't believe I never saw that before.
+
+You can see latch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1833"></child>
+        </children>
+    </item>
+    <item nodeId="node-1833">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+west corridor
+toddler is playing around in the field, he seems to be completely focused in what he is doing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1834"></child>
+        </children>
+    </item>
+    <item nodeId="node-1834">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  to-do list
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1835"></child>
+        </children>
+    </item>
+    <item nodeId="node-1835">
+        <command xml:space="preserve">give toddler grilled cheese</command>
+        <result xml:space="preserve">(first taking grilled cheese)
+That seems to belong to toddler.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1854"></child>
+        </children>
+    </item>
+    <item nodeId="node-1854">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  to-do list
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1855"></child>
+        </children>
+    </item>
+    <item nodeId="node-1855">
+        <command xml:space="preserve">give toddler grilled cheese</command>
+        <result xml:space="preserve">(first taking grilled cheese)
+That seems to belong to toddler.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1856"></child>
+        </children>
+    </item>
+    <item nodeId="node-1856">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  to-do list
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1920"></child>
+        </children>
+    </item>
+    <item nodeId="node-1920">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+castle
+a large room with a latch in the corner of it... I can't believe I never saw that before.
+
+You can see latch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1943"></child>
+        </children>
+    </item>
+    <item nodeId="node-1943">
+        <command xml:space="preserve">open latch</command>
+        <result xml:space="preserve">Upon first opening the latch you see a couple cobwebs and a staircase leading down. Are you sure you want to go down the stairway?
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1944"></child>
+        </children>
+    </item>
+    <item nodeId="node-1944">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">Please answer yes or no.&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1945"></child>
+        </children>
+    </item>
+    <item nodeId="node-1945">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">Please answer yes or no.&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1946"></child>
+        </children>
+    </item>
+    <item nodeId="node-1946">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">Please answer yes or no.&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1973"></child>
+        </children>
+    </item>
+    <item nodeId="node-1973">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">
+dungeon
+A cold mossy room, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.
+
+You can see latch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1974"></child>
+        </children>
+    </item>
+    <item nodeId="node-1974">
+        <command xml:space="preserve">up</command>
+        <result xml:space="preserve">(first opening latch)
+Upon first opening the latch you see a couple cobwebs and a staircase leading down. Are you sure you want to go down the stairway?
+</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1987">
+        <command xml:space="preserve">open latch</command>
+        <result xml:space="preserve">Upon first opening the latch you see a couple cobwebs and a staircase leading down. Are you sure you want to go down the stairway?
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1988"></child>
+        </children>
+    </item>
+    <item nodeId="node-1988">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">
+dungeon
+A cold mossy room, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.
+
+You can see latch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1989"></child>
+        </children>
+    </item>
+    <item nodeId="node-1989">
+        <command xml:space="preserve">up</command>
+        <result xml:space="preserve">the latch closed behind you, locking you down here. I wonder how you are going to get out now.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2005"></child>
+        </children>
+    </item>
+    <item nodeId="node-2005">
+        <command xml:space="preserve">up</command>
+        <result xml:space="preserve">the latch closed behind you, locking you down here. I wonder how you are going to get out now.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -821,6 +2522,527 @@ You see a loose rock in the wall, move it a couple more rocks fall as well and y
 
 west tower
 You can see rock wall here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2006">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2007"></child>
+        </children>
+    </item>
+    <item nodeId="node-2007">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+west border
+you are west of the castle. a rock wall makes up entire west tower. you see an open window on the upper west tower, maybe you could use your parkour skills and somehow climb up there and get inside.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2008"></child>
+        </children>
+    </item>
+    <item nodeId="node-2008">
+        <command xml:space="preserve">x rock</command>
+        <result xml:space="preserve"> 
+
+You see a loose rock in the wall, you move it and a couple more rocks fall as well. the dust clears up and you can see a path to the castle. you're in!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2009"></child>
+        </children>
+    </item>
+    <item nodeId="node-2009">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening rock wall)
+You crawl through the little space and make your way into the west tower.
+
+west tower
+You can see rock wall here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2010"></child>
+        </children>
+    </item>
+    <item nodeId="node-2010">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+upper west tower
+You can see grilled cheese here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2021"></child>
+        </children>
+    </item>
+    <item nodeId="node-2021">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2022"></child>
+        </children>
+    </item>
+    <item nodeId="node-2022">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2023"></child>
+        </children>
+    </item>
+    <item nodeId="node-2023">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2024"></child>
+        </children>
+    </item>
+    <item nodeId="node-2024">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2025"></child>
+        </children>
+    </item>
+    <item nodeId="node-2025">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2026"></child>
+        </children>
+    </item>
+    <item nodeId="node-2026">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2027"></child>
+        </children>
+    </item>
+    <item nodeId="node-2027">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2028"></child>
+        </children>
+    </item>
+    <item nodeId="node-2028">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2029"></child>
+        </children>
+    </item>
+    <item nodeId="node-2029">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2030"></child>
+        </children>
+    </item>
+    <item nodeId="node-2030">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2031"></child>
+        </children>
+    </item>
+    <item nodeId="node-2031">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2032"></child>
+        </children>
+    </item>
+    <item nodeId="node-2032">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2033"></child>
+        </children>
+    </item>
+    <item nodeId="node-2033">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2034"></child>
+        </children>
+    </item>
+    <item nodeId="node-2034">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2035"></child>
+        </children>
+    </item>
+    <item nodeId="node-2035">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2036"></child>
+        </children>
+    </item>
+    <item nodeId="node-2036">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2037"></child>
+        </children>
+    </item>
+    <item nodeId="node-2037">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2038"></child>
+        </children>
+    </item>
+    <item nodeId="node-2038">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2039"></child>
+        </children>
+    </item>
+    <item nodeId="node-2039">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2040"></child>
+        </children>
+    </item>
+    <item nodeId="node-2040">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2041"></child>
+        </children>
+    </item>
+    <item nodeId="node-2041">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2042"></child>
+        </children>
+    </item>
+    <item nodeId="node-2042">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2043"></child>
+        </children>
+    </item>
+    <item nodeId="node-2043">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2044"></child>
+        </children>
+    </item>
+    <item nodeId="node-2044">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2045"></child>
+        </children>
+    </item>
+    <item nodeId="node-2045">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2046"></child>
+        </children>
+    </item>
+    <item nodeId="node-2046">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2047"></child>
+        </children>
+    </item>
+    <item nodeId="node-2047">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2048"></child>
+        </children>
+    </item>
+    <item nodeId="node-2048">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2049"></child>
+        </children>
+    </item>
+    <item nodeId="node-2049">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2050"></child>
+        </children>
+    </item>
+    <item nodeId="node-2050">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2051"></child>
+        </children>
+    </item>
+    <item nodeId="node-2051">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2052"></child>
+        </children>
+    </item>
+    <item nodeId="node-2052">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2053"></child>
+        </children>
+    </item>
+    <item nodeId="node-2053">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2054"></child>
+        </children>
+    </item>
+    <item nodeId="node-2054">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2055"></child>
+        </children>
+    </item>
+    <item nodeId="node-2055">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2056"></child>
+        </children>
+    </item>
+    <item nodeId="node-2056">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2057"></child>
+        </children>
+    </item>
+    <item nodeId="node-2057">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2058"></child>
+        </children>
+    </item>
+    <item nodeId="node-2058">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2059"></child>
+        </children>
+    </item>
+    <item nodeId="node-2059">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2060"></child>
+        </children>
+    </item>
+    <item nodeId="node-2060">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2061"></child>
+        </children>
+    </item>
+    <item nodeId="node-2061">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2062"></child>
+        </children>
+    </item>
+    <item nodeId="node-2062">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2063"></child>
+        </children>
+    </item>
+    <item nodeId="node-2063">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2064"></child>
+        </children>
+    </item>
+    <item nodeId="node-2064">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2065"></child>
+        </children>
+    </item>
+    <item nodeId="node-2065">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2066"></child>
+        </children>
+    </item>
+    <item nodeId="node-2066">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2067"></child>
+        </children>
+    </item>
+    <item nodeId="node-2067">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2068"></child>
+        </children>
+    </item>
+    <item nodeId="node-2068">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2069"></child>
+        </children>
+    </item>
+    <item nodeId="node-2069">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2070"></child>
+        </children>
+    </item>
+    <item nodeId="node-2070">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2071"></child>
+        </children>
+    </item>
+    <item nodeId="node-2071">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2072"></child>
+        </children>
+    </item>
+    <item nodeId="node-2072">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
