@@ -63,7 +63,7 @@ instead of examining oak table:
 		say "a small cramped oak table with a lamp, pen, and a bunch of papers spread out all over.";
 	otherwise:
 		say "a small cramped oak table with a lamp, pen, a bunch of papers spread out all over, and a grilled cheese sandwich in the corner.".
-paper is a thing. it is on oak table. it is undescribed. the description of it is "a piece of printer paper, with random letters, and characters on it. must be some sort of code for something."
+paper is a thing. it is on oak table. it is undescribed. the description of it is "a piece of printer paper, with random letters, and characters on it. must be some sort of code for something.". understand "table" as "[oak table]".
 
 
 east tower is a room. east tower is east of courtyard.
@@ -129,7 +129,7 @@ instead of going up:
 		continue the action.
 
 [underground]
-Dungeon is a room. description of dungeon is "A cold mossy room, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.". torch is a thing inside dungeon. it is undescribed. it is lit.
+Dungeon is a room. description of dungeon is "A cold mossy room lit by a torch, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.". torch is a thing inside dungeon. it is undescribed. it is lit.
 
 rusty key unlocks steel door. it is in east hallway. it is undescribed. description is "a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently."
 
@@ -157,7 +157,7 @@ treasure room is a room. it is dark. description of it is "a small cramped room 
 iron door is west of lower west hallway and east of exit. iron door is locked and lockable.
 iron door is a door.
 
-long key unlocks iron door. "a long narrow key, huh this doesn't even look like a key. but maybe we should keep it just incase.". long key is in east border.
+long key unlocks iron door. description of it is "a long narrow key, huh this doesn't even look like a key. but maybe we should keep it just incase.". long key is in east border.
 
 exit is a room. it is dark. "you are in a tunnel, and see a little bit of light, you keep walking and start to smell some fresh air."
 

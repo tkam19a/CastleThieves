@@ -11,7 +11,7 @@ You are an international thief. You heard from a friend that there was a castle 
 
 CastleThieves
 An Interactive Fiction by Noa Kam
-Release 1 / Serial number 170222 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 170223 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 castle's border
 you see a portcullis, a heavy gate that can only be opened from the inside, blocking you from your goal. Are you going to let that stop you? heck no! this is child's play, but really how do you get inside?
@@ -2066,6 +2066,408 @@ You can see rock wall and bookshelf (in which are green book, blue book, orange 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2372"></child>
+        </children>
+    </item>
+    <item nodeId="node-2372">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  paper
+  grilled cheese
+  to-do list
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2373"></child>
+        </children>
+    </item>
+    <item nodeId="node-2373">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2374"></child>
+        </children>
+    </item>
+    <item nodeId="node-2374">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+courtyard
+You are infont of a small grey, old castle. I'm not even sure if you could consider it a castle. It's in the middle of the forrest, which made it very difficult to find in the first place..
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2375"></child>
+        </children>
+    </item>
+    <item nodeId="node-2375">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+west tower
+you look around and notice the inside is a lot nice than the rock on the ouside. you see a bunch of bookcases and a spiraling staircase going up.
+
+You can see rock wall and bookshelf (in which are green book, blue book, orange book, fat book, red book, skinny book and black book) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2376"></child>
+        </children>
+    </item>
+    <item nodeId="node-2376">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+courtyard
+You are infont of a small grey, old castle. I'm not even sure if you could consider it a castle. It's in the middle of the forrest, which made it very difficult to find in the first place..
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2377"></child>
+        </children>
+    </item>
+    <item nodeId="node-2377">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+castle
+a large room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2378"></child>
+        </children>
+    </item>
+    <item nodeId="node-2378">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+west corridor
+a grassy open field, with a couple trees and a garden surrounded by a rock wall encasing the entire property.
+
+toddler is playing around in the field, he seems to be completely focused in what he is doing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2379"></child>
+        </children>
+    </item>
+    <item nodeId="node-2379">
+        <command xml:space="preserve">ask toddler about treasure</command>
+        <result xml:space="preserve">Im hungy... you must be my baby sitter for tonight. my mommy said my dinner is across the hall. if you get me some food maybe ill talk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2380"></child>
+        </children>
+    </item>
+    <item nodeId="node-2380">
+        <command xml:space="preserve">give toddler grilled cheese</command>
+        <result xml:space="preserve">all right i'll help you. you asked about the treasure? first you have to go in the castle and open the latch in the ground, but that is all I can tell you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2381"></child>
+        </children>
+    </item>
+    <item nodeId="node-2381">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+castle
+a large room with a latch in the corner of it... I can't believe I never saw that before.
+
+You can see latch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2382"></child>
+        </children>
+    </item>
+    <item nodeId="node-2382">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+dungeon
+A cold mossy room, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.
+
+You can see latch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2383"></child>
+        </children>
+    </item>
+    <item nodeId="node-2383">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">the latch closed behind you, locking you down here. I wonder how you are going to get out now.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2384"></child>
+        </children>
+    </item>
+    <item nodeId="node-2384">
+        <command xml:space="preserve">take torch</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2385"></child>
+        </children>
+    </item>
+    <item nodeId="node-2385">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+east hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+You can see rubble here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2386"></child>
+        </children>
+    </item>
+    <item nodeId="node-2386">
+        <command xml:space="preserve">x rubble</command>
+        <result xml:space="preserve">broken rocks, stone, and bricks but if you search around a little more maybe you'll find something of need.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2387"></child>
+        </children>
+    </item>
+    <item nodeId="node-2387">
+        <command xml:space="preserve">x rubble</command>
+        <result xml:space="preserve">broken rocks, stone, and bricks but if you search around a little more maybe you'll find something of need.
+
+you look around and find a rusty key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2388"></child>
+        </children>
+    </item>
+    <item nodeId="node-2388">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+dungeon
+A cold mossy room, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.
+
+You can see latch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2389"></child>
+        </children>
+    </item>
+    <item nodeId="node-2389">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+west hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2390"></child>
+        </children>
+    </item>
+    <item nodeId="node-2390">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2391"></child>
+        </children>
+    </item>
+    <item nodeId="node-2391">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+dungeon
+A cold mossy room, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.
+
+You can see latch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2392"></child>
+        </children>
+    </item>
+    <item nodeId="node-2392">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+east hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+You can see rubble here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2393"></child>
+        </children>
+    </item>
+    <item nodeId="node-2393">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+upper east hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+You can see steel door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2394"></child>
+        </children>
+    </item>
+    <item nodeId="node-2394">
+        <command xml:space="preserve">open steel door</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2395"></child>
+        </children>
+    </item>
+    <item nodeId="node-2395">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2396"></child>
+        </children>
+    </item>
+    <item nodeId="node-2396">
+        <command xml:space="preserve">unlock steel door</command>
+        <result xml:space="preserve">What do you want to unlock steel door with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2397"></child>
+        </children>
+    </item>
+    <item nodeId="node-2397">
+        <command xml:space="preserve">rusty key</command>
+        <result xml:space="preserve">You unlock steel door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2398"></child>
+        </children>
+    </item>
+    <item nodeId="node-2398">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+
+treasure room
+a small cramped room almost filled to the brim with treasure, whether it be gold, silver, precious jewels, and ornaments.
+
+You can see steel door and King's Treasure here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2399"></child>
+        </children>
+    </item>
+    <item nodeId="node-2399">
+        <command xml:space="preserve">take king's treasure</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2400"></child>
+        </children>
+    </item>
+    <item nodeId="node-2400">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+upper east hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+You can see steel door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2401"></child>
+        </children>
+    </item>
+    <item nodeId="node-2401">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+east hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+You can see rubble here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2402"></child>
+        </children>
+    </item>
+    <item nodeId="node-2402">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+dungeon
+A cold mossy room, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.
+
+You can see latch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2403"></child>
+        </children>
+    </item>
+    <item nodeId="node-2403">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+west hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2404"></child>
+        </children>
+    </item>
+    <item nodeId="node-2404">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+lower west hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+You can see iron door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2405"></child>
+        </children>
+    </item>
+    <item nodeId="node-2405">
+        <command xml:space="preserve">unlock iron door</command>
+        <result xml:space="preserve">What do you want to unlock iron door with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2406"></child>
+        </children>
+    </item>
+    <item nodeId="node-2406">
+        <command xml:space="preserve">long key</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2407"></child>
+        </children>
+    </item>
+    <item nodeId="node-2407">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  King's Treasure
+  rusty key
+  torch (providing light)
+  paper
+  to-do list
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1092">
         <command xml:space="preserve">n</command>
@@ -3158,9 +3560,12 @@ You can see window here.
 east border
 you are east of the castle. a rock wall makes up entire east tower. on this side the window is closed. there is no way you are getting in through here.
 
+You can see long key here.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1055"></child>
+        <children><child nodeId="node-2409"></child>
+            <child nodeId="node-1055"></child>
         </children>
     </item>
     <item nodeId="node-1055">
@@ -3208,6 +3613,260 @@ You crawl through the little space and make your way into the west tower.
 
 west tower
 You can see rock wall here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2409">
+        <command xml:space="preserve">take</command>
+        <result xml:space="preserve">(long key)
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2412"></child>
+        </children>
+    </item>
+    <item nodeId="node-2412">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+castle's border
+you see a portcullis, a heavy gate that can only be opened from the inside, blocking you from your goal. Are you going to let that stop you? heck no! this is child's play, but really how do you get inside?
+
+You can see portcullis here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2413"></child>
+        </children>
+    </item>
+    <item nodeId="node-2413">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+west border
+you are west of the castle. a rock wall makes up entire west tower. you see an open window on the upper west tower, maybe you could use your parkour skills and somehow climb up there and get inside.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2414"></child>
+        </children>
+    </item>
+    <item nodeId="node-2414">
+        <command xml:space="preserve">x rock</command>
+        <result xml:space="preserve"> 
+
+You see a loose rock in the wall, you move it and a couple more rocks fall as well. the dust clears up and you can see a path to the castle. you're in!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2415"></child>
+        </children>
+    </item>
+    <item nodeId="node-2415">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening rock wall)
+You crawl through the little space and make your way into the west tower.
+
+west tower
+you look around and notice the inside is a lot nice than the rock on the ouside. you see a bunch of bookcases and a spiraling staircase going up.
+
+You can see rock wall and bookshelf (in which are green book, blue book, orange book, fat book, red book, skinny book and black book) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2416"></child>
+        </children>
+    </item>
+    <item nodeId="node-2416">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+upper west tower
+there is nothing much to see up here. just an oak table with a pen and paper, this is probably someone's study. but I guess they ran out of books to put in the shelves up here.
+
+You can see shelves and oak table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2417"></child>
+        </children>
+    </item>
+    <item nodeId="node-2417">
+        <command xml:space="preserve">take grilled cheese</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2418"></child>
+        </children>
+    </item>
+    <item nodeId="node-2418">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+west tower
+you look around and notice the inside is a lot nice than the rock on the ouside. you see a bunch of bookcases and a spiraling staircase going up.
+
+You can see rock wall and bookshelf (in which are green book, blue book, orange book, fat book, red book, skinny book and black book) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2419"></child>
+        </children>
+    </item>
+    <item nodeId="node-2419">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+courtyard
+You are infont of a small grey, old castle. I'm not even sure if you could consider it a castle. It's in the middle of the forrest, which made it very difficult to find in the first place..
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2420"></child>
+        </children>
+    </item>
+    <item nodeId="node-2420">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+castle
+a large room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2421"></child>
+        </children>
+    </item>
+    <item nodeId="node-2421">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+west corridor
+a grassy open field, with a couple trees and a garden surrounded by a rock wall encasing the entire property.
+
+toddler is playing around in the field, he seems to be completely focused in what he is doing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2422"></child>
+        </children>
+    </item>
+    <item nodeId="node-2422">
+        <command xml:space="preserve">ask toddler about treasure</command>
+        <result xml:space="preserve">Im hungy... you must be my baby sitter for tonight. my mommy said my dinner is across the hall. if you get me some food maybe ill talk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2423"></child>
+        </children>
+    </item>
+    <item nodeId="node-2423">
+        <command xml:space="preserve">give toddler grilled cheese</command>
+        <result xml:space="preserve">all right i'll help you. you asked about the treasure? first you have to go in the castle and open the latch in the ground, but that is all I can tell you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2424"></child>
+        </children>
+    </item>
+    <item nodeId="node-2424">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+castle
+a large room with a latch in the corner of it... I can't believe I never saw that before.
+
+You can see latch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2425"></child>
+        </children>
+    </item>
+    <item nodeId="node-2425">
+        <command xml:space="preserve">open latch</command>
+        <result xml:space="preserve">Upon first opening the latch you see a couple cobwebs and a staircase leading down. Are you sure you want to go down the stairway?
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2426"></child>
+        </children>
+    </item>
+    <item nodeId="node-2426">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">Please answer yes or no.&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2427"></child>
+        </children>
+    </item>
+    <item nodeId="node-2427">
+        <command xml:space="preserve">no</command>
+        <result xml:space="preserve">
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2428"></child>
+        </children>
+    </item>
+    <item nodeId="node-2428">
+        <command xml:space="preserve">open latch</command>
+        <result xml:space="preserve">Upon first opening the latch you see a couple cobwebs and a staircase leading down. Are you sure you want to go down the stairway?
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2429"></child>
+        </children>
+    </item>
+    <item nodeId="node-2429">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">
+dungeon
+A cold mossy room lit by a torch, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.
+
+You can see latch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2430"></child>
+        </children>
+    </item>
+    <item nodeId="node-2430">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can't see a thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2431"></child>
+        </children>
+    </item>
+    <item nodeId="node-2431">
+        <command xml:space="preserve">x rubble</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2432"></child>
+        </children>
+    </item>
+    <item nodeId="node-2432">
+        <command xml:space="preserve">x rubble</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2433"></child>
+        </children>
+    </item>
+    <item nodeId="node-2433">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+dungeon
+A cold mossy room lit by a torch, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.
+
+You can see latch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2434"></child>
+        </children>
+    </item>
+    <item nodeId="node-2434">
+        <command xml:space="preserve">take torch</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
