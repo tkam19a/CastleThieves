@@ -2475,11 +2475,14 @@ You can see iron door here.
 You crawl through the little space and make your way into the west tower.
 
 west tower
-You can see rock wall here.
+you look around and notice the inside is a lot nice than the rock on the ouside. you see a bunch of bookcases and a spiraling staircase going up.
+
+You can see rock wall and bookshelf (in which are green book, blue book, orange book, fat book, red book, skinny book and black book) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1093"></child>
+        <children><child nodeId="node-2463"></child>
+            <child nodeId="node-1093"></child>
         </children>
     </item>
     <item nodeId="node-1093">
@@ -2894,6 +2897,55 @@ You can see latch here.
     <item nodeId="node-2005">
         <command xml:space="preserve">up</command>
         <result xml:space="preserve">the latch closed behind you, locking you down here. I wonder how you are going to get out now.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2463">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+courtyard
+You are infont of a small grey, old castle. I'm not even sure if you could consider it a castle. It's in the middle of the forrest, which made it very difficult to find in the first place..
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2464"></child>
+        </children>
+    </item>
+    <item nodeId="node-2464">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+east tower
+you look around another tower, but this one is filled weapons almost like an armory. in the center of the room you see a stand holding up some shining armor, maybe that's worth something? you also see a staircase leading up, wonder what could be up there?
+
+You can see shining armor, axe and broadsword here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2465"></child>
+        </children>
+    </item>
+    <item nodeId="node-2465">
+        <command xml:space="preserve">take shining armor</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2466"></child>
+        </children>
+    </item>
+    <item nodeId="node-2466">
+        <command xml:space="preserve">wear shining armor</command>
+        <result xml:space="preserve">You put on shining armor.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2495"></child>
+        </children>
+    </item>
+    <item nodeId="node-2495">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">the armor is too heavy, keeping you from moving anywhere.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

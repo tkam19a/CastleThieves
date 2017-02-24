@@ -19,7 +19,7 @@ at 11:00 PM:
 	say "you hear a clock strike 11 times, looks like it's 11 o'clock the owner of the castle should be hoom real soon. now we really need to hurry up!"
 	
 at 11:15 PM:
-	say " 'HEY WHAT ARE YOU DOING IN MY CASTLE!!! COME HERE I'LL SHOW YOU FIRST HAND WHAT WE DO TO PEOPLE HOW TRY TO STEAL MY STUFF.'..... you die as the king brutally murders you with his own fists.";
+	say " 'HEY WHAT ARE YOU DOING IN MY CASTLE!!! COME HERE I'LL SHOW YOU FIRST HAND WHAT WE DO TO PEOPLE WHO TRY TO STEAL MY STUFF.'..... you die as the king brutally murders you with his own fists.";
 	end the story saying "you lose...".
 	
 
@@ -66,18 +66,66 @@ instead of examining oak table:
 paper is a thing. it is on oak table. it is undescribed. the description of it is "a piece of printer paper, with random letters, and characters on it. must be some sort of code for something.". understand "table" as "[oak table]".
 
 
-east tower is a room. east tower is east of courtyard. "you look around another tower, but this one is filled weapons almost like an armory. in the center of the room you see a stand holding up some shining armor, maybe that's worth something?"
+east tower is a room. east tower is east of courtyard. "you look around another tower, but this one is filled weapons almost like an armory. in the center of the room you see a stand holding up some shining armor, maybe that's worth something? you also see a staircase leading up, wonder what could be up there?"
 
-shining armor is a thing inside east tower. it is 
+shining armor is a thing inside east tower. description of it is "a thick spikey armor, made of a cold steel. I wonder if anyone has actually worn it before.". it is wearable.
 
-upper east tower is a room. it is above east tower.
+after putting on shining armor:
+	say "you put on the armor and realize how heavy it really is. could you really wear this into battle, or is it just for decoration?"
+
+axe is a thing inside east tower. description of it is "a double sided battle axe, with a really long handle"
+
+instead of taking axe:
+	say "it is too heavy for you to pick up. I can't see you really needing an axe for this job anyway.".
+broadsword is a thing inside east tower. description of it is "a long steel sword, that looks like it could cleave through the toughest of armor."
+
+instead of taking broadsword:
+	say "it is too heavy for you to pick up. I can't see you realy needed a broadsword for this job anyway."
+
+instead of going east:
+	if player is wearing shining armor:
+		say "the armor is too heavy, keeping you from moving anywhere.";
+	otherwise:
+		continue the action.
+		
+instead of going west:
+	if player is wearing shining armor:
+		say "the armor is too heavy, keeping you from moving anywhere.";
+	otherwise:
+		continue the action.
+		
+instead of going north:
+	if player is wearing shining armor:
+		say "the armor is too heavy, keeping you from moving anywhere.";
+	otherwise:
+		continue the action.
+		
+instead of going south:
+	if player is wearing shining armor:
+		say "the armor is too heavy, keeping you from moving anywhere.";
+	otherwise:
+		continue the action.
+		
+instead of going up:
+	if player is wearing shining armor:
+		say "the armor is too heavy, keeping you from moving anywhere.";
+	otherwise:
+		continue the action.
+		
+instead of going down:
+	if player is wearing shining armor:
+		say "the armor is too heavy, keeping you from moving anywhere.";
+	otherwise:
+		continue the action.
+
+upper east tower is a room. it is above east tower. description of it is "a room"
 
 west corridor is a room. west corridor is west of castle. description of it is "a grassy open field, with a couple trees and a garden surrounded by a rock wall encasing the entire property.".
 garden is a thing. it is in west corridor. it is scenery. description of it is "a bed a roses, and a couple of other flowers and plants, but I'm not to sure what they are.".
 
 tree is a thing. it is in west corridor. it is scenery. description of it is "a bright green apple tree, with some ripe apples growing on it.".
 
-east corridor is a room. east corridor is east of castle.
+east corridor is a room. east corridor is east of castle. description of it is "an open field, with a fish pond, and a little bamboo forrest. surrounded by a long rock wall."
 
 north corridor is a room. north corridor is north of castle.
 
