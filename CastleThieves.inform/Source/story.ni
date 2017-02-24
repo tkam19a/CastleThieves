@@ -66,7 +66,9 @@ instead of examining oak table:
 paper is a thing. it is on oak table. it is undescribed. the description of it is "a piece of printer paper, with random letters, and characters on it. must be some sort of code for something.". understand "table" as "[oak table]".
 
 
-east tower is a room. east tower is east of courtyard.
+east tower is a room. east tower is east of courtyard. "you look around another tower, but this one is filled weapons almost like an armory. in the center of the room you see a stand holding up some shining armor, maybe that's worth something?"
+
+shining armor is a thing inside east tower. it is 
 
 upper east tower is a room. it is above east tower.
 
@@ -164,3 +166,5 @@ exit is a room. it is dark. "you are in a tunnel, and see a little bit of light,
 After entering exit:
 	say "you escaped with the treasure and not even a drip of sweat, congratulation!";
 	end the story finally.
+	
+[e, take long key, w, w, x rock, n, u, take grilled cheese, d, e, n, w, ask toddler about treasure, give toddler grilled cheese, e, d, take torch, e, x rubble, x rubble, n, unlock steel door, e, take king's treasure, w, s, w, w, s, unlock iron door, long key, w]
