@@ -46,7 +46,7 @@ courtyard is a room. description of the courtyard is "You are in front of a smal
 
 castle is a room. castle is north of courtyard. description of the castle is "a large grand room, surrounded by stone walls, with a lit candle chandelier on the ceiling."
 
-candle chandelier is a thing. it is in castle. the description of it is "a golden lit candle chandelier bright enough to light up the entire castle."
+candle chandelier is a thing. it is in castle. the description of it is "a golden lit candle chandelier bright enough to light up the entire castle.". it is fixed in place.
 
 An every turn rule:
 	if toddler is carrying grilled cheese:
@@ -241,7 +241,7 @@ upper east hallway is a room. upper east hallway is north of east hallway. it is
 
 steel door is east of upper east hallway and west of treasure room. steel door is locked and lockable. steel door is a door.
 
-treasure room is a room. it is dark. description of it is "a small cramped room almost filled to the brim with treasure, whether it be gold, silver, precious jewels, and ornaments.". King's Treasure is a thing inside treasure room. description of it is "almost all of the king's treasure fit into a plump sack. It makes you feel like a reverse Santa."
+treasure room is a room. it is dark. description of it is "a small cramped room almost filled to the brim with treasure, whether it be gold, silver, precious jewels, and ornaments.". King's Treasure is a thing inside treasure room. description of it is "almost all of the king's treasure fit into a plump sack. It makes you feel like a reverse Santa.". Understand "kings treasure" as "[king's treasure]".
 
 iron door is west of lower west hallway and east of exit. iron door is locked and lockable.
 iron door is a door.
@@ -255,4 +255,4 @@ instead of going to exit:
 		end the story saying "you escaped with the treasure and not even a drip of sweat, congratulation!";
 		continue the action.
 	
-
+[fastest way to win: w, x wall, n, u, take grilled cheese, d, e, n, n, ask toddler about treasure, give toddler grilled cheese, s, open latch, e, look under rubble, n, unlock steel door, rusty key, e, take king's treasure, take long key, w, s, w, w, s, unlock iron door, long key, w]
