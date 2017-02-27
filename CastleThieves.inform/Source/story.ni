@@ -8,7 +8,7 @@ when play begins:
 	
 to-do list is a thing. description of it is "checklist: before 11:00pm I need to get into the castle, find out where the treasure is, take it, and get out.".
 
-When play begins, say "You are an international thief. You heard from a friend that there was a castle in the middle of a forrest, and the owner just went out to a dinner party. It is 9:00pm and you have about 2 hours to get in steal anything precious and get out."
+When play begins, say "You are an international thief. You heard from a friend that there was a castle in the middle of a forest, and the owner just went out to a dinner party. It is 9:00pm and you have about 2 hours to get in steal anything precious and get out."
 
 When play begins: now the time of day is 9:00 PM.
 
@@ -19,7 +19,7 @@ at 11:00 PM:
 	say "you hear a clock strike 11 times, looks like it's 11 o'clock the owner of the castle should be hoom real soon. now we really need to hurry up!"
 	
 at 11:15 PM:
-	say " 'HEY WHAT ARE YOU DOING IN MY CASTLE!!! COME HERE I'LL SHOW YOU FIRST HAND WHAT WE DO TO PEOPLE WHO TRY TO STEAL MY STUFF.'..... you die as the king brutally murders you with his own fists.";
+	say " 'HEY WHAT ARE YOU DOING IN MY CASTLE!!! COME HERE I'LL SHOW YOU FIRST HAND WHAT WE DO TO PEOPLE WHO TRY TO STEAL MY STUFF.'..... you die as the king executes you.";
 	end the story saying "you lose...".
 	
 
@@ -36,7 +36,7 @@ instead of opening rock wall:
 	say "You crawl through the little space and make your way into the west tower.";
 	move player to west tower.
 
-west border is west of castle's border. west border is a room. "you are west of the castle. a rock wall makes up entire west tower. you see an open window on the upper west tower, maybe you could use your parkour skills and somehow climb up there and get inside."
+west border is west of castle's border. west border is a room. "you are west of the castle. a suspicious rock wall makes up entire west tower, maybe you should check it out. but you also see an open window on the upper west tower, maybe you could use your parkour skills and somehow climb up there and get inside."
 
 east border is east of castle's border. east border is a room. "you are east of the castle. a rock wall makes up entire east tower. on this side the window is closed. there is no way you are getting in through here."
 
@@ -125,7 +125,7 @@ garden is a thing. it is in west corridor. it is scenery. description of it is "
 
 tree is a thing. it is in west corridor. it is scenery. description of it is "a bright green apple tree, with some ripe apples growing on it.".
 
-east corridor is a room. east corridor is east of castle. description of it is "an open field, with a fish pond, and a little bamboo forrest. surrounded by a long rock wall."
+east corridor is a room. east corridor is east of castle. description of it is "an open field, with a fish pond, and a little bamboo forest. surrounded by a long rock wall."
 
 north corridor is a room. north corridor is north of castle.
 
@@ -154,10 +154,18 @@ instead of closing bookshelf:
 instead of opening bookshelf:
 	say "you cannot open a bookshelf, what are you thinking?".
 
-toddler is a man in west corridor. "toddler is playing around in the field, he seems to be completely focused in what he is doing.". the description is "a young boy who seems oblivious of you coming into the castle. maybe you can try asking him things about the treasure.". Understand "kid","boy","brat" as "[toddler]".
+toddler is a man in north corridor. "toddler is playing around in the field, he seems to be completely focused in what he is doing.". the description is "a young boy who seems oblivious of you coming into the castle. maybe you can try asking him things about the treasure.". Understand "kid","boy","brat" as "[toddler]".
 
 Instead of asking toddler about "treasure":
 	say "Im hungy... you must be my baby sitter for tonight. my mommy said my dinner is across the hall. if you get me some food maybe ill talk.".
+
+instead of talking to toddler:
+	say "he doesn't respond. as he is too focused in what he is doing right now."
+
+[inform handbook]
+Talking to is an action applying to one visible thing.
+Understand "talk to [someone]" or “converse with
+[someone]” as talking to.
 
 grilled cheese is a thing. it is edible. it is on oak table. it is undescribed.
 
@@ -184,13 +192,13 @@ Dungeon is a room. description of dungeon is "A cold mossy room lit by a torch, 
 rusty key unlocks steel door. it is in east hallway. it is undescribed. description is "a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently."
 
 
-east hallway is a room. east hallway is east of dungeon. it is dark. description is "a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.". rubble is a thing inside east hallway. description of rubble is "broken rocks, stone, and bricks but if you search around a little more maybe you'll find something of need."
+east hallway is a room. east hallway is east of dungeon. it is dark. description is "a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.". rubble is a thing inside east hallway. description of rubble is "broken rocks, stone, and bricks cover the floor keeping you from seeing the ground, which could be hiding something from you."
 
 
 west hallway is a room. west hallway is west of dungeon. it is dark. description is "a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.". 
-
-after examining rubble 2 times:
-	say "you look around and find a rusty key.";
+	
+instead of looking under rubble:
+	say "you move the rubble a little to reveal a little rusty key.";
 	move rusty key to player.
 
 north hallway is a room. north hallway is north of dungeon. it is dark. description is "a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.". debris is a thing in north hallway. description of it is "broken tiles, dirt, and rocks clutter the ground but if you search around a little more maybe you'll find something or need."
@@ -207,7 +215,7 @@ treasure room is a room. it is dark. description of it is "a small cramped room 
 iron door is west of lower west hallway and east of exit. iron door is locked and lockable.
 iron door is a door.
 
-long key unlocks iron door. description of it is "a long narrow key, huh this doesn't even look like a key. but maybe we should keep it just incase.". long key is in east border.
+long key unlocks iron door. description of it is "a long narrow key, huh this doesn't even look like a key. but maybe we should keep it just incase.". long key is in treasure room.
 
 exit is a room. it is dark. "you are in a tunnel, and see a little bit of light, you keep walking and start to smell some fresh air."
 
