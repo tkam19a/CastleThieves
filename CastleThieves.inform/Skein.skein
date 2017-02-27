@@ -7,11 +7,11 @@
         <result xml:space="preserve">
 
 
-You are an international thief. You heard from a friend that there was a castle in the middle of a forrest, and the owner just went out to a dinner party. It is 9:00pm and you have about 2 hours to get in steal anything precious and get out.
+You are an international thief. You heard from a friend that there was a castle in the middle of a forest, and the owner just went out to a dinner party. It is 9:00pm and you have about 2 hours to get in, steal anything precious and get out.
 
 CastleThieves
 An Interactive Fiction by Noa Kam
-Release 1 / Serial number 170226 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 170227 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 castle's border
 you see a portcullis, a heavy gate that can only be opened from the inside, blocking you from your goal. Are you going to let that stop you? heck no! this is child's play, but really how do you get inside?
@@ -5061,7 +5061,531 @@ It seems to be locked.
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1050"></child>
             <child nodeId="node-1044"></child>
+            <child nodeId="node-2851"></child>
         </children>
+    </item>
+    <item nodeId="node-2851">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening portcullis)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2854"></child>
+        </children>
+    </item>
+    <item nodeId="node-2854">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+west border
+you are west of the castle. a suspicious rock wall makes up entire west tower, maybe you should check it out. but you also see an open window on the upper west tower, maybe you could use your parkour skills and somehow climb up there and get inside.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2855"></child>
+        </children>
+    </item>
+    <item nodeId="node-2855">
+        <command xml:space="preserve">x rock</command>
+        <result xml:space="preserve"> 
+
+You see a loose rock in the wall, you move it and a couple more rocks fall as well. the dust clears up and you can see a path to the castle. you're in!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2856"></child>
+        </children>
+    </item>
+    <item nodeId="node-2856">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening rock wall)
+You crawl through the little space and make your way into the west tower.
+
+west tower
+you look around and notice the inside is a lot nice than the rock on the outside. you see a bunch of bookcases and a spiraling staircase going up.
+
+You can see rock wall and bookshelf (in which are green book, blue book, orange book, fat book, red book, skinny book and black book) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2857"></child>
+        </children>
+    </item>
+    <item nodeId="node-2857">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+upper west tower
+there is nothing much to see up here. just an oak table with a pen and paper, this is probably someone's study. but I guess they ran out of books to put in the shelves up here.
+
+You can see shelves and oak table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2858"></child>
+        </children>
+    </item>
+    <item nodeId="node-2858">
+        <command xml:space="preserve">take grilled cheese</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2859"></child>
+        </children>
+    </item>
+    <item nodeId="node-2859">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+west tower
+you look around and notice the inside is a lot nice than the rock on the outside. you see a bunch of bookcases and a spiraling staircase going up.
+
+You can see rock wall and bookshelf (in which are green book, blue book, orange book, fat book, red book, skinny book and black book) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2860"></child>
+        </children>
+    </item>
+    <item nodeId="node-2860">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+courtyard
+You are in front of a small grey, old castle. I'm not even sure if you could consider it a castle. It's in the middle of the forest, which made it very difficult to find in the first place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2861"></child>
+        </children>
+    </item>
+    <item nodeId="node-2861">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+castle
+a large grand room, surrounded by stone walls, with a lit candle chandelier on the ceiling.
+
+You can see candle chandelier here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2862"></child>
+        </children>
+    </item>
+    <item nodeId="node-2862">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+north corridor
+a grassy open field, with a couple trees and a garden surrounded by a rock wall encasing the entire property.
+
+toddler is playing around in the field, he seems to be completely focused in what he is doing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2863"></child>
+        </children>
+    </item>
+    <item nodeId="node-2863">
+        <command xml:space="preserve">task toddler about treasure</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2864"></child>
+        </children>
+    </item>
+    <item nodeId="node-2864">
+        <command xml:space="preserve">ask toddler about treasure</command>
+        <result xml:space="preserve">I'm hungry... you must be my baby sitter for tonight. my mommy said my dinner is across the hall. if you get me some food maybe I'll talk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2865"></child>
+        </children>
+    </item>
+    <item nodeId="node-2865">
+        <command xml:space="preserve">give toddler grilled cheese</command>
+        <result xml:space="preserve">all right I'll help you. you asked about the treasure? first you have to go in the castle and open the latch in the ground, but that is all I can tell you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2866"></child>
+        </children>
+    </item>
+    <item nodeId="node-2866">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+castle
+a large grand room, surrounded by stone walls, with a lit candle chandelier on the ceiling, with a latch in the corner of it... I can't believe I never saw that before.
+
+You can see latch and candle chandelier here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2867"></child>
+        </children>
+    </item>
+    <item nodeId="node-2867">
+        <command xml:space="preserve">open latch</command>
+        <result xml:space="preserve">Upon first opening the latch you see a couple cobwebs and a staircase leading down. Are you sure you want to go down the stairway?
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2868"></child>
+        </children>
+    </item>
+    <item nodeId="node-2868">
+        <command xml:space="preserve">yas</command>
+        <result xml:space="preserve">Please answer yes or no.&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2869"></child>
+        </children>
+    </item>
+    <item nodeId="node-2869">
+        <command xml:space="preserve">yas</command>
+        <result xml:space="preserve">Please answer yes or no.&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2870"></child>
+        </children>
+    </item>
+    <item nodeId="node-2870">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">
+dungeon
+A cold mossy room lit by a torch, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.
+
+You can see latch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2871"></child>
+        </children>
+    </item>
+    <item nodeId="node-2871">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">the latch closed behind you, locking you down here. I wonder how you are going to get out now.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2872"></child>
+        </children>
+    </item>
+    <item nodeId="node-2872">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can't see a thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2873"></child>
+        </children>
+    </item>
+    <item nodeId="node-2873">
+        <command xml:space="preserve">look under rubble</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2874"></child>
+        </children>
+    </item>
+    <item nodeId="node-2874">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+dungeon
+A cold mossy room lit by a torch, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.
+
+You can see latch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2875"></child>
+        </children>
+    </item>
+    <item nodeId="node-2875">
+        <command xml:space="preserve">take torch</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2876"></child>
+        </children>
+    </item>
+    <item nodeId="node-2876">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+east hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+You can see rubble here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2877"></child>
+        </children>
+    </item>
+    <item nodeId="node-2877">
+        <command xml:space="preserve">look under rubble</command>
+        <result xml:space="preserve">you move the rubble a little to reveal a little rusty key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2878"></child>
+        </children>
+    </item>
+    <item nodeId="node-2878">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+upper east hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+You can see steel door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2879"></child>
+        </children>
+    </item>
+    <item nodeId="node-2879">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+east hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+You can see rubble here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2880"></child>
+        </children>
+    </item>
+    <item nodeId="node-2880">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+dungeon
+A cold mossy room lit by a torch, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.
+
+You can see latch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2881"></child>
+        </children>
+    </item>
+    <item nodeId="node-2881">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+west hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2882"></child>
+        </children>
+    </item>
+    <item nodeId="node-2882">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+lower west hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+You can see iron door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2883"></child>
+        </children>
+    </item>
+    <item nodeId="node-2883">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+west hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2884"></child>
+        </children>
+    </item>
+    <item nodeId="node-2884">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+dungeon
+A cold mossy room lit by a torch, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.
+
+You can see latch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2885"></child>
+        </children>
+    </item>
+    <item nodeId="node-2885">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+east hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+You can see rubble here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2886"></child>
+        </children>
+    </item>
+    <item nodeId="node-2886">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+upper east hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+You can see steel door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2887"></child>
+        </children>
+    </item>
+    <item nodeId="node-2887">
+        <command xml:space="preserve">unlock steel door</command>
+        <result xml:space="preserve">What do you want to unlock steel door with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2888"></child>
+        </children>
+    </item>
+    <item nodeId="node-2888">
+        <command xml:space="preserve">rusty key</command>
+        <result xml:space="preserve">You unlock steel door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2889"></child>
+        </children>
+    </item>
+    <item nodeId="node-2889">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+
+treasure room
+a small cramped room almost filled to the brim with treasure, whether it be gold, silver, precious jewels, and ornaments.
+
+You can see steel door, King's Treasure and long key here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2890"></child>
+        </children>
+    </item>
+    <item nodeId="node-2890">
+        <command xml:space="preserve">take king's treasure</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2891"></child>
+        </children>
+    </item>
+    <item nodeId="node-2891">
+        <command xml:space="preserve">take long key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2892"></child>
+        </children>
+    </item>
+    <item nodeId="node-2892">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+upper east hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+You can see steel door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2893"></child>
+        </children>
+    </item>
+    <item nodeId="node-2893">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+east hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+You can see rubble here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2894"></child>
+        </children>
+    </item>
+    <item nodeId="node-2894">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+dungeon
+A cold mossy room lit by a torch, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.
+
+You can see latch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2895"></child>
+        </children>
+    </item>
+    <item nodeId="node-2895">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+west hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2896"></child>
+        </children>
+    </item>
+    <item nodeId="node-2896">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+lower west hallway
+a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.
+
+You can see iron door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2897"></child>
+        </children>
+    </item>
+    <item nodeId="node-2897">
+        <command xml:space="preserve">unlock iron door</command>
+        <result xml:space="preserve">What do you want to unlock iron door with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2898"></child>
+        </children>
+    </item>
+    <item nodeId="node-2898">
+        <command xml:space="preserve">long key</command>
+        <result xml:space="preserve">You unlock iron door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2899"></child>
+        </children>
+    </item>
+    <item nodeId="node-2899">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+
+    *** you escaped with the treasure and not even a drip of sweat, congratulation! ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1044">
         <command xml:space="preserve">go down</command>
@@ -5481,6 +6005,525 @@ You can see latch here.
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2691"></child>
+        </children>
+    </item>
+    <item nodeId="node-2691">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+west border
+you are west of the castle. a suspicious rock wall makes up entire west tower, maybe you should check it out. but you also see an open window on the upper west tower, maybe you could use your parkour skills and somehow climb up there and get inside.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2692"></child>
+        </children>
+    </item>
+    <item nodeId="node-2692">
+        <command xml:space="preserve">x wall</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2693"></child>
+        </children>
+    </item>
+    <item nodeId="node-2693">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2694"></child>
+        </children>
+    </item>
+    <item nodeId="node-2694">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2695"></child>
+        </children>
+    </item>
+    <item nodeId="node-2695">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2696"></child>
+        </children>
+    </item>
+    <item nodeId="node-2696">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2721"></child>
+        </children>
+    </item>
+    <item nodeId="node-2721">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2731"></child>
+        </children>
+    </item>
+    <item nodeId="node-2731">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2732"></child>
+        </children>
+    </item>
+    <item nodeId="node-2732">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2733"></child>
+        </children>
+    </item>
+    <item nodeId="node-2733">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2734"></child>
+        </children>
+    </item>
+    <item nodeId="node-2734">
+        <command xml:space="preserve">take grilled cheese</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2735"></child>
+        </children>
+    </item>
+    <item nodeId="node-2735">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2736"></child>
+        </children>
+    </item>
+    <item nodeId="node-2736">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2737"></child>
+        </children>
+    </item>
+    <item nodeId="node-2737">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2738"></child>
+        </children>
+    </item>
+    <item nodeId="node-2738">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2739"></child>
+        </children>
+    </item>
+    <item nodeId="node-2739">
+        <command xml:space="preserve">talk to toddler</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2740"></child>
+        </children>
+    </item>
+    <item nodeId="node-2740">
+        <command xml:space="preserve">x toddler</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2741"></child>
+        </children>
+    </item>
+    <item nodeId="node-2741">
+        <command xml:space="preserve">ask toddler about treasure</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2742"></child>
+        </children>
+    </item>
+    <item nodeId="node-2742">
+        <command xml:space="preserve">give toddler grilled cheese</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2743"></child>
+        </children>
+    </item>
+    <item nodeId="node-2743">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2744"></child>
+        </children>
+    </item>
+    <item nodeId="node-2744">
+        <command xml:space="preserve">x candle</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2745"></child>
+        </children>
+    </item>
+    <item nodeId="node-2745">
+        <command xml:space="preserve">open latch</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2746"></child>
+        </children>
+    </item>
+    <item nodeId="node-2746">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2747"></child>
+        </children>
+    </item>
+    <item nodeId="node-2747">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2748"></child>
+        </children>
+    </item>
+    <item nodeId="node-2748">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2749"></child>
+        </children>
+    </item>
+    <item nodeId="node-2749">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2750"></child>
+        </children>
+    </item>
+    <item nodeId="node-2750">
+        <command xml:space="preserve">take torch</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2751"></child>
+        </children>
+    </item>
+    <item nodeId="node-2751">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2752"></child>
+        </children>
+    </item>
+    <item nodeId="node-2752">
+        <command xml:space="preserve">x rubble</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2753"></child>
+        </children>
+    </item>
+    <item nodeId="node-2753">
+        <command xml:space="preserve">look under rubble</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2754"></child>
+        </children>
+    </item>
+    <item nodeId="node-2754">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2755"></child>
+        </children>
+    </item>
+    <item nodeId="node-2755">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2756"></child>
+        </children>
+    </item>
+    <item nodeId="node-2756">
+        <command xml:space="preserve">unlock steel door</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2757"></child>
+        </children>
+    </item>
+    <item nodeId="node-2757">
+        <command xml:space="preserve">rusty key</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2758"></child>
+        </children>
+    </item>
+    <item nodeId="node-2758">
+        <command xml:space="preserve">open steel door</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2759"></child>
+        </children>
+    </item>
+    <item nodeId="node-2759">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2760"></child>
+        </children>
+    </item>
+    <item nodeId="node-2760">
+        <command xml:space="preserve">take king's treasure</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2761"></child>
+        </children>
+    </item>
+    <item nodeId="node-2761">
+        <command xml:space="preserve">x long key</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2762"></child>
+        </children>
+    </item>
+    <item nodeId="node-2762">
+        <command xml:space="preserve">take long key</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2763"></child>
+        </children>
+    </item>
+    <item nodeId="node-2763">
+        <command xml:space="preserve">x kings treasure</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2764"></child>
+        </children>
+    </item>
+    <item nodeId="node-2764">
+        <command xml:space="preserve">x king's treasure</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2765"></child>
+        </children>
+    </item>
+    <item nodeId="node-2765">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2766"></child>
+        </children>
+    </item>
+    <item nodeId="node-2766">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2767"></child>
+        </children>
+    </item>
+    <item nodeId="node-2767">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2768"></child>
+        </children>
+    </item>
+    <item nodeId="node-2768">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2769"></child>
+        </children>
+    </item>
+    <item nodeId="node-2769">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2770"></child>
+        </children>
+    </item>
+    <item nodeId="node-2770">
+        <command xml:space="preserve">unlock iron door</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2771"></child>
+        </children>
+    </item>
+    <item nodeId="node-2771">
+        <command xml:space="preserve">long key</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2772"></child>
+        </children>
+    </item>
+    <item nodeId="node-2772">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2773"></child>
+        </children>
+    </item>
+    <item nodeId="node-2773">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2774"></child>
+        </children>
+    </item>
+    <item nodeId="node-2774">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
 </Skein>
