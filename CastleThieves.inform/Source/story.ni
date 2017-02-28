@@ -1,14 +1,21 @@
 "CastleThieves" by Noa Kam
 
-[ground level]
-castle's border is a room. description of castle's border is "you see a portcullis, a heavy gate that can only be opened from the inside, blocking you from your goal. Are you going to let that stop you? heck no! this is child's play, but really how do you get inside?"
+[for the game I decided to make everything lower case except for I's as my style of writing.]
+
+castle's border is a room. description of castle's border is "you see a portcullis, a heavy gate, blocking you from your goal. Are you going to let that stop you? heck no! this is child's play, but really how do you get inside?"
 
 when play begins:
-	move to-do list to player	
+	move to-do list to player;
+	move id to player.
 	
-to-do list is a thing. description of it is "checklist: before 11:00pm I need to get into the castle, find out where the treasure is, take it, and get out.".
+description of player is "an internation thief, around 6 foot 3 inches, 185 pounds, or at least that's what your id says here.".
 
-When play begins, say "You are an international thief. You heard from a friend that there was a castle in the middle of a forest, and the owner just went out to a dinner party. It is 9:00pm and you have about 2 hours to get in, steal anything precious and get out."
+id is a thing. description of it is "just your usual state id."
+
+
+to-do list is a thing. description of it is "checklist: before 11:00pm I need to get into the castle, find out where the treasure is, take it, and get out.". understand "list", "todo list" as "[to-do list]"
+
+When play begins, say "you are an international thief. you heard from a friend that there was a castle in the middle of a forest, and the owner just went out to a dinner party. It is 9:00pm and you have about 2 hours to get in, steal anything precious and get out."
 
 When play begins: now the time of day is 9:00 PM.
 
@@ -38,15 +45,20 @@ instead of opening rock wall:
 
 west border is west of castle's border. west border is a room. "you are west of the castle. a suspicious rock wall makes up entire west tower, maybe you should check it out. but you also see an open window on the upper west tower, maybe you could use your parkour skills and somehow climb up there and get inside."
 
-east border is east of castle's border. east border is a room. "you are east of the castle. a rock wall makes up entire east tower. on this side the window is closed. there is no way you are getting in through here."
+window is a thing. it is in west border. description of it is "that windows is way too high for you to get to, even if you had a ladder."
 
-portcullis is a door. portcullis is north of castle's border and south of court yard. description of portcullis is "a heavy gate that can only be opened from the inside, but you see a huge keyhole maybe that'll do the trick.". it is locked and lockable.
+east border is east of castle's border. east border is a room. "you are east of the castle. a rock wall makes up entire east tower."
 
-courtyard is a room. description of the courtyard is "You are in front of a small grey, old castle. I'm not even sure if you could consider it a castle. It's in the middle of the forest, which made it very difficult to find in the first place.".
+portcullis is a door. portcullis is north of castle's border and south of court yard. description of portcullis is "a heavy gate that can only be opened from the inside, but you see a keyhole maybe that'll do the trick.". it is locked and lockable.
+
+courtyard is a room. description of the courtyard is "You are in front of a small grey, old castle. I'm not even sure if you could consider it a castle, because of how small it is".
 
 castle is a room. castle is north of courtyard. description of the castle is "a large grand room, surrounded by stone walls, with a lit candle chandelier on the ceiling."
 
 candle chandelier is a thing. it is in castle. the description of it is "a golden lit candle chandelier bright enough to light up the entire castle.". it is fixed in place.
+
+instead of taking chandelier:
+	say "are you kidding me it's on the ceiling, how are you going to get up there.".
 
 An every turn rule:
 	if toddler is carrying grilled cheese:
@@ -54,7 +66,7 @@ An every turn rule:
 	
 	
 
-west tower is a room. west tower is west of courtyard. "you look around and notice the inside is a lot nice than the rock on the outside. you see a bunch of bookcases and a spiraling staircase going up."
+west tower is a room. west tower is west of courtyard. "you look around and notice the inside is a lot nicer than the rock on the outside. you see a bunch of bookcases and a spiraling staircase going up."
 
 upper west tower is a room. upper west tower is above west tower. "there is nothing much to see up here. just an oak table with a pen and paper, this is probably someone's study. but I guess they ran out of books to put in the shelves up here.".
 shelves is a thing. it is inside upper west tower. it is fixed in place. description of it is "empty, cobwebs cover the shelves. I wonder if anyone will ever clean this up.".
@@ -82,7 +94,7 @@ instead of taking axe:
 broadsword is a thing inside east tower. description of it is "a long steel sword, that looks like it could cleave through the toughest of armor."
 
 instead of taking broadsword:
-	say "it is too heavy for you to pick up. I can't see you realy needed a broadsword for this job anyway."
+	say "it is too heavy for you to pick up. I can't see you realy needed a broadsword for this job anyway.". understand "sword" as "[broadsword]".
 
 instead of going east:
 	if player is wearing shining armor:
@@ -122,6 +134,7 @@ instead of going down:
 		
 
 [mr.kiang get that cat]
+[shows exits on top bar]
 When play begins: 
     now left hand status line is "Exits: [exit list]"; 
     now right hand status line is "[location]".
@@ -144,9 +157,12 @@ instead of taking lamp:
 alarm clock is a thing. it is on nightstand. description of it is "it is blinking 12:00 AM, the electricity must've gone out sometime recently.". understand "clock" as "[alarm clock]"
 
 instead of taking alarm clock:
-	say "it's just an alarm clock man, you're going to take the king's treasure and his lamp. that's just mean."
+	say "it's just an alarm clock man, you're going to take the king's treasure and his clock. that's just mean."
 
-blue blanket is a thing. it is on the master bed. description of blue blanket is "a blue thick blanket used most often in the winter.". understand "blanket", "sheet", "comforter", "towel" as "[green and blue blanket]".
+blue blanket is a thing. it is on the master bed. description of blue blanket is "a blue thick blanket used most often in the winter.". understand "blanket", "sheet", "comforter", "towel" as "[blue blanket]".
+
+instead of taking blue blanket:
+	say "it's actually kind of cold here taking his blanket would be torturing whoever uses it. I mean you are not that bad of a person are you?"
 
 north corridor is a room. north corridor is north of castle. description of it is "a grassy open field, with a couple trees and a garden surrounded by a rock wall encasing the entire property.".
 garden is a thing. it is in north corridor. it is scenery. description of it is "a bed a roses, and a couple of other flowers and plants, but I'm not too sure what they are.".
@@ -160,19 +176,19 @@ latch is a door. latch is below castle and above dungeon. latch is undescribed. 
 
 bookshelf is a container. it is fixed in place. it is in west tower. it is open. description of it is "a bookshelf filled to the brim with books, of many different shapes and sized. I wonder if the owner has read all of these?". 
 
-green book is a thing. it is inside bookshelf. "a green book."
+green book is a thing. it is inside bookshelf. description of it is  "a green book."
 
-blue book is a thing. it is inside bookshelf. "a blue book."
+blue book is a thing. it is inside bookshelf. description of it is "a blue book."
 
-orange book is a thing. it is inside bookshelf. "a orange book."
+orange book is a thing. it is inside bookshelf. description of it is  "a orange book."
 
-fat book is a thing. it is inside bookshelf. "a fat book, it must be at least 2000 pages."
+fat book is a thing. it is inside bookshelf. description of it is "a fat book, it must be at least 2000 pages."
 
-red book is a thing. it is inside bookshelf. "a red book."
+red book is a thing. it is inside bookshelf. description of it is "a red book."
 
-skinny book is a thing. it is inside bookshelf. "a skinny book, it would probably take about 2 minutes to read this cover to cover."
+skinny book is a thing. it is inside bookshelf. description of it is "a skinny book, it would probably take about 2 minutes to read this cover to cover."
 
-black book is a thing. it is inside bookshelf. "a black book."
+black book is a thing. it is inside bookshelf. description of it is "a black book."
 
 
 instead of closing bookshelf:
@@ -190,11 +206,15 @@ instead of talking to toddler:
 	say "he doesn't respond. as he is too focused in what he is doing right now."
 
 [inform handbook]
+[adds talking]
 Talking to is an action applying to one visible thing.
 Understand "talk to [someone]" or “converse with
 [someone]” as talking to.
 
-grilled cheese is a thing. it is edible. it is on oak table. it is undescribed.
+grilled cheese is a thing. it is edible. it is on oak table. it is undescribed. understand "sandwich", "grilled cheese sandwich" as "[grilled cheese]"
+
+instead of eating grilled cheese:
+	say "you might not want to eat that just yet. a meal might be better after stealing the treasure, how does that sound?"
 
 Instead of giving grilled cheese to toddler:
 	say "all right I'll help you. you asked about the treasure? first you have to go in the castle and open the latch in the ground, but that is all I can tell you.";
@@ -213,35 +233,34 @@ instead of going up:
 	otherwise:
 		continue the action.
 
-[underground]
 Dungeon is a room. description of dungeon is "A cold mossy room lit by a torch, with chains hanging from the walls, blood stains everywhere... You feel a chill run down your back.". torch is a thing inside dungeon. it is undescribed. it is lit.
 
-rusty key unlocks steel door. it is in east hallway. it is undescribed. description is "a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently."
+rusty key unlocks steel door. it is in east hallway. it is undescribed. description is "a long narrow, stone hallway. it is kind of dark as your torch only lights up so much."
 
 
-east hallway is a room. east hallway is east of dungeon. it is dark. description is "a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.". 
+east hallway is a room. east hallway is east of dungeon. it is dark. description is "a long narrow, stone hallway. it is kind of dark as your torch only lights up so much.". 
 
-rubble is a thing inside east hallway. description of rubble is "broken rocks, stone, and bricks cover the floor keeping you from seeing the ground, which could be hiding something from you.". it is fixed in place.
+rubble is a thing inside east hallway. description of rubble is "rubble cover the floor keeping you from seeing the ground, maybe there is something lying beneath the rubble.". it is fixed in place.
 
 
-west hallway is a room. west hallway is west of dungeon. it is dark. description is "a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.". 
+west hallway is a room. west hallway is west of dungeon. it is dark. description is "a long narrow, stone hallway. it is kind of dark as your torch only lights up so much.". 
 	
 instead of looking under rubble:
 	say "you move the rubble a little to reveal a little rusty key.";
 	move rusty key to player.
 
-north hallway is a room. north hallway is north of dungeon. it is dark. description is "a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.".
+north hallway is a room. north hallway is north of dungeon. it is dark. description is "a long narrow, stone hallway. it is kind of dark as your torch only lights up so much.".
 
-debris is a thing in north hallway. description of it is "broken tiles, dirt, and rocks clutter the ground but if you search around a little more maybe you'll find something or need.". it is fixed in place.
+debris is a thing in north hallway. description of it is "debris clutter the ground but if you search around a little more maybe you'll find something of need.". it is fixed in place.
 
-lower west hallway is a room. lower west hallway is south of west hallway. it is dark. description is "a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.". 
+lower west hallway is a room. lower west hallway is south of west hallway. it is dark. description is "a long narrow, stone hallway. it is kind of dark as your torch only lights up so much.". 
 
-upper east hallway is a room. upper east hallway is north of east hallway. it is dark. description is "a long narrow, stone hallway. it is kind of dark as your torch only lights up so much. rubble litters the ground, someone else must have tried to break in recently.". 
+upper east hallway is a room. upper east hallway is north of east hallway. it is dark. description is "a long narrow, stone hallway. it is kind of dark as your torch only lights up so much.". 
 
 
 steel door is east of upper east hallway and west of treasure room. steel door is locked and lockable. steel door is a door.
 
-treasure room is a room. it is dark. description of it is "a small cramped room almost filled to the brim with treasure, whether it be gold, silver, precious jewels, and ornaments.". King's Treasure is a thing inside treasure room. description of it is "almost all of the king's treasure fit into a plump sack. It makes you feel like a reverse Santa.". Understand "kings treasure" as "[king's treasure]".
+treasure room is a room. it is dark. description of it is "a small cramped room almost filled to the brim with treasure, whether it be gold, silver, precious jewels, and ornaments.". king's treasure is a thing inside treasure room. description of it is "almost all of the king's treasure fit into a plump sack. It makes you feel like a reverse Santa.". Understand "kings treasure" as "[king's treasure]".
 
 iron door is west of lower west hallway and east of exit. iron door is locked and lockable.
 iron door is a door.
@@ -255,4 +274,33 @@ instead of going to exit:
 		end the story saying "you escaped with the treasure and not even a drip of sweat, congratulation!";
 		continue the action.
 	
-[fastest way to win: w, x wall, n, u, take grilled cheese, d, e, n, n, ask toddler about treasure, give toddler grilled cheese, s, open latch, e, look under rubble, n, unlock steel door, rusty key, e, take king's treasure, take long key, w, s, w, w, s, unlock iron door, long key, w]
+[fastest way to win: 
+w
+x wall
+n
+u
+take grilled cheese
+d
+e
+n
+n
+ask toddler about treasure
+give toddler grilled cheese
+s
+open latch
+e
+look under rubble
+n
+unlock steel door
+rusty key
+e
+take king's treasure
+take long key
+w
+s
+w
+w
+s
+unlock iron door
+long key
+w]
